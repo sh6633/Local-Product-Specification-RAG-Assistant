@@ -12,12 +12,11 @@ tests/
 data/raw/
 data/processed/specs.json
 data/processed/benchmark_results.json
-data/processed/benchmark_results_embedding.json
 data/processed/smoke_questions_results.json
 data/processed/benchmark_error_review*.txt
 data/processed/benchmark_embedding_error_review*.txt
 data/processed/prompt_snapshot*.txt
-benchmark_results*.json
+/benchmark_results*.json
 models/*.gguf
 data/processed/chunks.json
 data/processed/eval_runs/
@@ -28,5 +27,4 @@ src/*
 !src/main.py
 !src/embeddings.py
 !src/rag_natural.py
-!src/run_benchmark.py
 !src/run_benchmark_embedding.py

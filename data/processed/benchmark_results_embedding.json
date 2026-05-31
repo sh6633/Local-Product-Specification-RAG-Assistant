@@ -1,0 +1,5488 @@
+{
+  "created_at": "2026-05-30T20:17:06",
+  "questions_path": "D:\\Gigabyte project\\examples\\AORUS_MASTER16_AM6H_100Q_Benchmark.txt",
+  "retrieval": "BM25 + lexical cosine candidate recall, multilingual-e5-small embedding rerank",
+  "total_questions": 200,
+  "results": [
+    {
+      "question": "請告訴我這台的作業系統配置為何？",
+      "answer": "AORUS MASTER 16 AM6H的3個模型：AORUS MASTER 16 BZH、AORUS MASTER 16 BYH、和AORUS MASTER 16 BXH都支援Windows 11 Pro、Windows 11 Home以及UEFI Shell OS。 (｀・ω・´)b",
+      "TTFT": 1.1008901000022888,
+      "TPS": 29.149685456752476,
+      "token": 64,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.857,
+          "bm25": 1.8672,
+          "lexical_similarity": 0.0206,
+          "score": 0.857
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.8347,
+          "bm25": 14.1556,
+          "lexical_similarity": 0.1408,
+          "score": 0.8347
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8282,
+          "bm25": 2.7379,
+          "lexical_similarity": 0.0192,
+          "score": 0.8282
+        }
+      ],
+      "number": 1
+    },
+    {
+      "question": "請告訴我這台的中央處理器配置為何？",
+      "answer": "這台的中央處理器配置為 Intel Core Ultra 9 Processor 275HX，36MB cache，最高頻率至 5.4 GHz，24核心，24線程。 (｀・ω・´)b",
+      "TTFT": 0.49909779999870807,
+      "TPS": 32.46652092938025,
+      "token": 52,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::cpu",
+          "embedding_similarity": 0.8509,
+          "bm25": 16.8301,
+          "lexical_similarity": 0.1747,
+          "score": 0.8509
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8206,
+          "bm25": 2.7379,
+          "lexical_similarity": 0.0186,
+          "score": 0.8206
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8192,
+          "bm25": 1.391,
+          "lexical_similarity": 0.014,
+          "score": 0.8192
+        }
+      ],
+      "number": 2
+    },
+    {
+      "question": "請告訴我這台的顯示晶片配置為何？",
+      "answer": "AORUS MASTER 16 AM6H的GPU配置如下：\n- BZH: NVIDIA GeForce RTX 5090 Laptop GPU\n- BYH: NVIDIA GeForce RTX 5080 Laptop GPU\n- BXH: NVIDIA GeForce RTX 5070 Ti Laptop GPU (｀・ω・´)b",
+      "TTFT": 0.5641940000059549,
+      "TPS": 31.49283695434179,
+      "token": 63,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.853,
+          "bm25": 10.415,
+          "lexical_similarity": 0.1014,
+          "score": 0.853
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8438,
+          "bm25": 5.0319,
+          "lexical_similarity": 0.0577,
+          "score": 0.8438
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8337,
+          "bm25": 2.7379,
+          "lexical_similarity": 0.0192,
+          "score": 0.8337
+        }
+      ],
+      "number": 3
+    },
+    {
+      "question": "請告訴我這台的顯示器配置為何？",
+      "answer": "AORUS MASTER 16 AM6H 的顯示器配置為 16 吋 16:10 OLED 螢幕，分辨率为 WQXGA 2560x1600，刷新率 240Hz，反應時間 1ms，峰值亮度 500 nits，對比度比 1,000,000:1。此外，它們還具有 NVIDIA G-SYNC、NVIDIA Advanced Optimus、VESA DisplayHDR True Black 500、VESA ClearMR 10000、Pantone Validated、TUV Rheinland Low Blue Light 認證以及 Dolby Vision 认證。 (｀・ω・´)b",
+      "TTFT": 0.2681449000010616,
+      "TPS": 27.851840253889286,
+      "token": 148,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8463,
+          "bm25": 6.4972,
+          "lexical_similarity": 0.084,
+          "score": 0.8463
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8433,
+          "bm25": 6.4229,
+          "lexical_similarity": 0.0747,
+          "score": 0.8433
+        },
+        {
+          "chunk_id": "natural::cpu",
+          "embedding_similarity": 0.8223,
+          "bm25": 2.7409,
+          "lexical_similarity": 0.0467,
+          "score": 0.8223
+        }
+      ],
+      "number": 4
+    },
+    {
+      "question": "請告訴我這台的記憶體配置為何？",
+      "answer": "AORUS MASTER 16 AM6H的記憶體配置為支援至64GB DDR5 5600MHz記憶體，並提供2 SO-DIMM插槽進行擴充。 (｀・ω・´)b",
+      "TTFT": 0.6174121999938507,
+      "TPS": 32.1575481654898,
+      "token": 54,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::memory",
+          "embedding_similarity": 0.8465,
+          "bm25": 7.5411,
+          "lexical_similarity": 0.0744,
+          "score": 0.8465
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8388,
+          "bm25": 7.2441,
+          "lexical_similarity": 0.063,
+          "score": 0.8388
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8296,
+          "bm25": 2.7379,
+          "lexical_similarity": 0.0199,
+          "score": 0.8296
+        }
+      ],
+      "number": 5
+    },
+    {
+      "question": "請告訴我這台的儲存裝置配置為何？",
+      "answer": "AORUS MASTER 16 AM6H 的三款變種 BZH、BYH、BXH 都提供 1 個 PCIe Gen5 M.2 插槽和 1 個 PCIe Gen4x4 M.2 插槽，並支援最高 4TB 的 PCIe NVMe M.2 SSD。實際的儲存容量可能因國家和地區而異。 (｀・ω・´)b",
+      "TTFT": 0.5136026000036509,
+      "TPS": 29.16865493513719,
+      "token": 79,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8407,
+          "bm25": 14.6522,
+          "lexical_similarity": 0.1265,
+          "score": 0.8407
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8326,
+          "bm25": 1.3181,
+          "lexical_similarity": 0.0095,
+          "score": 0.8326
+        },
+        {
+          "chunk_id": "natural::memory",
+          "embedding_similarity": 0.8205,
+          "bm25": 2.107,
+          "lexical_similarity": 0.0225,
+          "score": 0.8205
+        }
+      ],
+      "number": 6
+    },
+    {
+      "question": "請告訴我這台的鍵盤種類為何？",
+      "answer": "這台的鍵盤種類為3區RGB背光鍵盤。 (｀・ω・´)b",
+      "TTFT": 0.31625809999968624,
+      "TPS": 31.26424802963608,
+      "token": 24,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::keyboard",
+          "embedding_similarity": 0.853,
+          "bm25": 7.3169,
+          "lexical_similarity": 0.075,
+          "score": 0.853
+        }
+      ],
+      "number": 7
+    },
+    {
+      "question": "請告訴我這台的連接埠配置為何？",
+      "answer": "這台的連接埠配置為：左側連接埠：DC-in、RJ-45、HDMI 2.1、1 Type-A USB 3.2 Gen2、1 Thunderbolt 5 Type-C USB4/DP 2.1/Power Delivery 3.0。右側連接埠：1 Type-A USB 3.2 Gen2、1 Thunderbolt 4 Type-C USB4/DP 1.4/Power Delivery 3.0、1 MicroSD UHS-II插槽、1耳機/麥克風連接埠。 (｀・ω・´)b",
+      "TTFT": 0.29780010000104085,
+      "TPS": 30.372987133041462,
+      "token": 133,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8523,
+          "bm25": 7.7359,
+          "lexical_similarity": 0.0548,
+          "score": 0.8523
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8167,
+          "bm25": 2.7379,
+          "lexical_similarity": 0.0199,
+          "score": 0.8167
+        }
+      ],
+      "number": 8
+    },
+    {
+      "question": "請告訴我這台的音效配置為何？",
+      "answer": "AORUS MASTER 16 AM6H的音效配置為4個2W喇叭、麥克風、Dolby Atmos以及Smart Amp Technology。 (｀・ω・´)b",
+      "TTFT": 0.3913399999946705,
+      "TPS": 31.92838797052472,
+      "token": 42,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::audio",
+          "embedding_similarity": 0.8345,
+          "bm25": 6.3001,
+          "lexical_similarity": 0.0531,
+          "score": 0.8345
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8172,
+          "bm25": 2.7379,
+          "lexical_similarity": 0.0207,
+          "score": 0.8172
+        }
+      ],
+      "number": 9
+    },
+    {
+      "question": "請告訴我這台的通訊功能配置為何？",
+      "answer": "AORUS MASTER 16 AM6H 的通訊功能配置為 Wi-Fi 7 802.11be 2x2、1G LAN 和 Bluetooth v5.4。 (｀・ω・´)b",
+      "TTFT": 0.48725179999746615,
+      "TPS": 32.496230437203174,
+      "token": 51,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::connectivity",
+          "embedding_similarity": 0.8326,
+          "bm25": 11.518,
+          "lexical_similarity": 0.1314,
+          "score": 0.8326
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8146,
+          "bm25": 1.3181,
+          "lexical_similarity": 0.0101,
+          "score": 0.8146
+        },
+        {
+          "chunk_id": "natural::security",
+          "embedding_similarity": 0.813,
+          "bm25": 4.4349,
+          "lexical_similarity": 0.0462,
+          "score": 0.813
+        }
+      ],
+      "number": 10
+    },
+    {
+      "question": "請告訴我這台的視訊鏡頭配置為何？",
+      "answer": "AORUS MASTER 16 AM6H的視訊鏡頭配置為FHD 1080p IR鏡頭。 (｀・ω・´)b",
+      "TTFT": 0.4451889999982086,
+      "TPS": 28.443936041066383,
+      "token": 37,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8357,
+          "bm25": 12.0162,
+          "lexical_similarity": 0.1069,
+          "score": 0.8357
+        },
+        {
+          "chunk_id": "natural::connectivity",
+          "embedding_similarity": 0.8265,
+          "bm25": 3.2199,
+          "lexical_similarity": 0.0438,
+          "score": 0.8265
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8159,
+          "bm25": 2.7379,
+          "lexical_similarity": 0.0192,
+          "score": 0.8159
+        }
+      ],
+      "number": 11
+    },
+    {
+      "question": "請告訴我這台的安全裝置配置為何？",
+      "answer": "AORUS MASTER 16 AM6H的安全裝置配置為支持 firmware-based TPM 和 Intel Platform Trust Technology，也稱為 Intel PTT。 (｀・ω・´)b",
+      "TTFT": 0.27164259999699425,
+      "TPS": 32.64045534742525,
+      "token": 40,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::security",
+          "embedding_similarity": 0.8422,
+          "bm25": 8.2107,
+          "lexical_similarity": 0.0868,
+          "score": 0.8422
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8256,
+          "bm25": 8.2138,
+          "lexical_similarity": 0.0542,
+          "score": 0.8256
+        }
+      ],
+      "number": 12
+    },
+    {
+      "question": "請告訴我這台的電池配置為何？",
+      "answer": "AORUS MASTER 16 AM6H 的電池配置為 Li-ion 99Wh。 (｀・ω・´)b",
+      "TTFT": 0.4996138000060455,
+      "TPS": 32.400007905813,
+      "token": 30,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8415,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0228,
+          "score": 0.8415
+        },
+        {
+          "chunk_id": "natural::battery",
+          "embedding_similarity": 0.8237,
+          "bm25": 6.2238,
+          "lexical_similarity": 0.0816,
+          "score": 0.8237
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.8189,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0498,
+          "score": 0.8189
+        }
+      ],
+      "number": 13
+    },
+    {
+      "question": "請告訴我這台的變壓器配置為何？",
+      "answer": "AORUS MASTER 16 AM6H 的變壓器配置為 330W AC Adapter。 (｀・ω・´)b",
+      "TTFT": 0.30833330000314163,
+      "TPS": 32.62891582692755,
+      "token": 32,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.84,
+          "bm25": 9.5713,
+          "lexical_similarity": 0.12,
+          "score": 0.84
+        },
+        {
+          "chunk_id": "natural::cpu",
+          "embedding_similarity": 0.8338,
+          "bm25": 2.7409,
+          "lexical_similarity": 0.0467,
+          "score": 0.8338
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8291,
+          "bm25": 2.7379,
+          "lexical_similarity": 0.0199,
+          "score": 0.8291
+        }
+      ],
+      "number": 14
+    },
+    {
+      "question": "請告訴我這台的尺寸為何？",
+      "answer": "AORUS MASTER 16 AM6H 的尺寸為 357 x 254 x 23~29.9 mm。(｀・ω・´)b",
+      "TTFT": 0.21433969999634428,
+      "TPS": 32.95208838677282,
+      "token": 41,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::dimensions",
+          "embedding_similarity": 0.8375,
+          "bm25": 6.0453,
+          "lexical_similarity": 0.0546,
+          "score": 0.8375
+        }
+      ],
+      "number": 15
+    },
+    {
+      "question": "請告訴我這台的重量為何？",
+      "answer": "AORUS MASTER 16 AM6H 的三款模型：AORUS MASTER 16 BZH、AORUS MASTER 16 BYH、AORUS MASTER 16 BXH，重量相同，均約為 2.5 公斤。實際重量可能因配置、製造過程及測量方法而有所不同。 (｀・ω・´)b",
+      "TTFT": 0.24863960000220686,
+      "TPS": 31.22585945946018,
+      "token": 82,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::weight",
+          "embedding_similarity": 0.8403,
+          "bm25": 7.5795,
+          "lexical_similarity": 0.1106,
+          "score": 0.8403
+        },
+        {
+          "chunk_id": "natural::battery",
+          "embedding_similarity": 0.8072,
+          "bm25": 2.6401,
+          "lexical_similarity": 0.0296,
+          "score": 0.8072
+        }
+      ],
+      "number": 16
+    },
+    {
+      "question": "請告訴我這台的顏色為何？",
+      "answer": "AORUS MASTER 16 AM6H 的顏色為 Dark Tide。 (｀・ω・´)b",
+      "TTFT": 0.6430030000046827,
+      "TPS": 31.51737370013389,
+      "token": 25,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8337,
+          "bm25": 1.138,
+          "lexical_similarity": 0.0121,
+          "score": 0.8337
+        },
+        {
+          "chunk_id": "natural::color",
+          "embedding_similarity": 0.8312,
+          "bm25": 7.9635,
+          "lexical_similarity": 0.1212,
+          "score": 0.8312
+        }
+      ],
+      "number": 17
+    },
+    {
+      "question": "請告訴我這台支援哪些顯示技術？",
+      "answer": "這台支援的顯示技術有：\n- NVIDIA G-SYNC\n- NVIDIA Advanced Optimus\n- VESA DisplayHDR True Black 500\n- VESA ClearMR 10000\n- Pantone Validated\n- TUV Rheinland Low Blue Light认证\n- Dolby Vision (｀・ω・´)b",
+      "TTFT": 0.5211799000026076,
+      "TPS": 31.771672533206726,
+      "token": 65,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8571,
+          "bm25": 6.4972,
+          "lexical_similarity": 0.084,
+          "score": 0.8571
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8565,
+          "bm25": 5.0319,
+          "lexical_similarity": 0.0598,
+          "score": 0.8565
+        }
+      ],
+      "number": 18
+    },
+    {
+      "question": "請告訴我這台有哪些 AI 相關功能？",
+      "answer": "AORUS MASTER 16 AM6H 提供 AI 相關功能包括 AI Boost、Windows Hello Face Authentication。AI Boost 可提升 AI 記憶體頻率，並支援 Dynamic Boost 功能。Windows Hello Face Authentication 是一種臉部辨識技術，用於 Windows Hello 身份驗證。 (｀・ω・´)b",
+      "TTFT": 0.6784861999985878,
+      "TPS": 28.197862521426966,
+      "token": 63,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8622,
+          "bm25": 2.3744,
+          "lexical_similarity": 0.032,
+          "score": 0.8622
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8512,
+          "bm25": 4.2575,
+          "lexical_similarity": 0.042,
+          "score": 0.8512
+        },
+        {
+          "chunk_id": "natural::security",
+          "embedding_similarity": 0.8445,
+          "bm25": 4.4349,
+          "lexical_similarity": 0.0478,
+          "score": 0.8445
+        }
+      ],
+      "number": 19
+    },
+    {
+      "question": "請告訴我這台有哪些散熱技術？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 20
+    },
+    {
+      "question": "這台電腦有 OLED 螢幕嗎？",
+      "answer": "這台電腦有 OLED 螢幕嗎？有，AORUS MASTER 16 AM6H 的所有模型都使用 16:10 OLED 面板。 (｀・ω・´)b",
+      "TTFT": 0.6022229000009247,
+      "TPS": 27.730997475814,
+      "token": 44,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8566,
+          "bm25": 1.8672,
+          "lexical_similarity": 0.0266,
+          "score": 0.8566
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8551,
+          "bm25": 6.6504,
+          "lexical_similarity": 0.0745,
+          "score": 0.8551
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8467,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0274,
+          "score": 0.8467
+        }
+      ],
+      "number": 21
+    },
+    {
+      "question": "這台電腦有 NVIDIA G-SYNC 嗎？",
+      "answer": "這台電腦有 NVIDIA G-SYNC 嗎？有，AORUS MASTER 16 AM6H 的所有模型都支援 NVIDIA G-SYNC。 (｀・ω・´)b",
+      "TTFT": 0.6008558999965317,
+      "TPS": 29.781845746292493,
+      "token": 40,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8557,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0393,
+          "score": 0.8557
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8498,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0274,
+          "score": 0.8498
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8472,
+          "bm25": 6.2433,
+          "lexical_similarity": 0.0745,
+          "score": 0.8472
+        }
+      ],
+      "number": 22
+    },
+    {
+      "question": "這台電腦有 NVIDIA Advanced Optimus 嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.5263113000037265,
+      "TPS": 31.294290686270433,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8684,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0393,
+          "score": 0.8684
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8568,
+          "bm25": 6.2433,
+          "lexical_similarity": 0.0745,
+          "score": 0.8568
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8547,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0274,
+          "score": 0.8547
+        }
+      ],
+      "number": 23
+    },
+    {
+      "question": "這台電腦有 Dolby Vision 嗎？",
+      "answer": "有 Dolby Vision。 (｀・ω・´)b",
+      "TTFT": 0.5405094999950961,
+      "TPS": 31.68146190901417,
+      "token": 13,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8471,
+          "bm25": 5.6499,
+          "lexical_similarity": 0.0791,
+          "score": 0.8471
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.839,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.029,
+          "score": 0.839
+        },
+        {
+          "chunk_id": "natural::audio",
+          "embedding_similarity": 0.8184,
+          "bm25": 2.5288,
+          "lexical_similarity": 0.0339,
+          "score": 0.8184
+        }
+      ],
+      "number": 24
+    },
+    {
+      "question": "這台電腦有 Pantone Validated 認證嗎？",
+      "answer": "有 Pantone Validated 認證。 (｀・ω・´)b",
+      "TTFT": 0.22277439999743365,
+      "TPS": 28.445086671397217,
+      "token": 16,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8429,
+          "bm25": 12.536,
+          "lexical_similarity": 0.1414,
+          "score": 0.8429
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8315,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0259,
+          "score": 0.8315
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.7893,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0568,
+          "score": 0.7893
+        }
+      ],
+      "number": 25
+    },
+    {
+      "question": "這台電腦有低藍光認證嗎？",
+      "answer": "有低藍光認證。 (｀・ω・´)b",
+      "TTFT": 0.2507368000005954,
+      "TPS": 29.77904543886323,
+      "token": 15,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8625,
+          "bm25": 15.0519,
+          "lexical_similarity": 0.1685,
+          "score": 0.8625
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8411,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0247,
+          "score": 0.8411
+        },
+        {
+          "chunk_id": "natural::connectivity",
+          "embedding_similarity": 0.8381,
+          "bm25": 2.3322,
+          "lexical_similarity": 0.0256,
+          "score": 0.8381
+        }
+      ],
+      "number": 26
+    },
+    {
+      "question": "這台電腦有 Wi‑Fi 7 嗎？",
+      "answer": "這台電腦有 Wi‑Fi 7 嗎？有的，AORUS MASTER 16 AM6H 支援 Wi-Fi 7 802.11be 2x2。 (｀・ω・´)b",
+      "TTFT": 0.6156216999952449,
+      "TPS": 28.334159935197814,
+      "token": 50,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::connectivity",
+          "embedding_similarity": 0.8507,
+          "bm25": 8.7721,
+          "lexical_similarity": 0.1414,
+          "score": 0.8507
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8406,
+          "bm25": 5.6017,
+          "lexical_similarity": 0.0799,
+          "score": 0.8406
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8334,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0274,
+          "score": 0.8334
+        }
+      ],
+      "number": 27
+    },
+    {
+      "question": "這台電腦有藍牙功能嗎？",
+      "answer": "這台電腦有藍牙功能，支援Bluetooth v5.4。 (｀・ω・´)b",
+      "TTFT": 0.512028700002702,
+      "TPS": 30.439172409162694,
+      "token": 23,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::connectivity",
+          "embedding_similarity": 0.8507,
+          "bm25": 9.5245,
+          "lexical_similarity": 0.1073,
+          "score": 0.8507
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8415,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0259,
+          "score": 0.8415
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.835,
+          "bm25": 1.3181,
+          "lexical_similarity": 0.0124,
+          "score": 0.835
+        }
+      ],
+      "number": 28
+    },
+    {
+      "question": "這台電腦有 Windows Hello 嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.5813971999959904,
+      "TPS": 30.59793682951005,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.847,
+          "bm25": 5.3747,
+          "lexical_similarity": 0.1464,
+          "score": 0.847
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.8313,
+          "bm25": 2.4407,
+          "lexical_similarity": 0.0643,
+          "score": 0.8313
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8312,
+          "bm25": 1.7702,
+          "lexical_similarity": 0.0283,
+          "score": 0.8312
+        }
+      ],
+      "number": 29
+    },
+    {
+      "question": "這台電腦有 RTX 5090 的版本嗎？",
+      "answer": "AORUS MASTER 16 BZH 版本有 RTX 5090 的 GPU。 (｀・ω・´)b",
+      "TTFT": 0.8323645999989822,
+      "TPS": 28.534933503179918,
+      "token": 22,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8744,
+          "bm25": 3.2568,
+          "lexical_similarity": 0.0603,
+          "score": 0.8744
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8686,
+          "bm25": 3.7819,
+          "lexical_similarity": 0.0474,
+          "score": 0.8686
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8502,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0247,
+          "score": 0.8502
+        }
+      ],
+      "number": 30
+    },
+    {
+      "question": "這台電腦有 Thunderbolt 5 嗎？",
+      "answer": "這台電腦有 Thunderbolt 5 嗎？有的，AORUS MASTER 16 AM6H 的所有模型都配有 Thunderbolt 5 型號的 Type-C 介面。 (｀・ω・´)b",
+      "TTFT": 0.6348961000039708,
+      "TPS": 29.356279179706814,
+      "token": 48,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8657,
+          "bm25": 7.1498,
+          "lexical_similarity": 0.1306,
+          "score": 0.8657
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8625,
+          "bm25": 4.0777,
+          "lexical_similarity": 0.0848,
+          "score": 0.8625
+        },
+        {
+          "chunk_id": "natural::cpu",
+          "embedding_similarity": 0.8225,
+          "bm25": 1.711,
+          "lexical_similarity": 0.0309,
+          "score": 0.8225
+        }
+      ],
+      "number": 31
+    },
+    {
+      "question": "這台電腦有 5G SIM 卡槽嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.33757450000121025,
+      "TPS": 29.56768159027528,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8497,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0259,
+          "score": 0.8497
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8349,
+          "bm25": 3.0079,
+          "lexical_similarity": 0.0248,
+          "score": 0.8349
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.8022,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0568,
+          "score": 0.8022
+        }
+      ],
+      "number": 32
+    },
+    {
+      "question": "這台電腦有觸控螢幕嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.31807880000269506,
+      "TPS": 31.56878239547737,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8399,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0259,
+          "score": 0.8399
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8237,
+          "bm25": 4.1345,
+          "lexical_similarity": 0.0354,
+          "score": 0.8237
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.8066,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0568,
+          "score": 0.8066
+        }
+      ],
+      "number": 33
+    },
+    {
+      "question": "這台電腦有光碟機嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.3389052999991691,
+      "TPS": 30.829856996431896,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8479,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0274,
+          "score": 0.8479
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8317,
+          "bm25": 2.7379,
+          "lexical_similarity": 0.0248,
+          "score": 0.8317
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8233,
+          "bm25": 3.134,
+          "lexical_similarity": 0.0373,
+          "score": 0.8233
+        }
+      ],
+      "number": 34
+    },
+    {
+      "question": "這台電腦支援 ECC RAM 嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.26522140000452055,
+      "TPS": 30.612549050714414,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8415,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0274,
+          "score": 0.8415
+        },
+        {
+          "chunk_id": "natural::memory",
+          "embedding_similarity": 0.8334,
+          "bm25": 3.1312,
+          "lexical_similarity": 0.0309,
+          "score": 0.8334
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.8077,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0599,
+          "score": 0.8077
+        }
+      ],
+      "number": 35
+    },
+    {
+      "question": "這台電腦的 SSD 是 TLC 還是 QLC？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.2610054000033415,
+      "TPS": 31.520474704955223,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8514,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0228,
+          "score": 0.8514
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.829,
+          "bm25": 3.8487,
+          "lexical_similarity": 0.0413,
+          "score": 0.829
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.8028,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0498,
+          "score": 0.8028
+        }
+      ],
+      "number": 36
+    },
+    {
+      "question": "這台電腦使用液態金屬散熱嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.6162657999957446,
+      "TPS": 30.92110723569026,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8526,
+          "bm25": 1.4175,
+          "lexical_similarity": 0.0111,
+          "score": 0.8526
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8401,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0228,
+          "score": 0.8401
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.808,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0498,
+          "score": 0.808
+        }
+      ],
+      "number": 37
+    },
+    {
+      "question": "這台電腦支援 CUDA 13 嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.4890120999989449,
+      "TPS": 31.722572413372397,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8484,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0274,
+          "score": 0.8484
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.8112,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0599,
+          "score": 0.8112
+        },
+        {
+          "chunk_id": "natural::battery",
+          "embedding_similarity": 0.8061,
+          "bm25": 2.9352,
+          "lexical_similarity": 0.0654,
+          "score": 0.8061
+        }
+      ],
+      "number": 38
+    },
+    {
+      "question": "這台電腦有雙螢幕設計嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.31920050000189804,
+      "TPS": 31.811616296438235,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8491,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0247,
+          "score": 0.8491
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8344,
+          "bm25": 4.1345,
+          "lexical_similarity": 0.0337,
+          "score": 0.8344
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.8108,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0542,
+          "score": 0.8108
+        }
+      ],
+      "number": 39
+    },
+    {
+      "question": "這台電腦有可拆式鍵盤嗎？",
+      "answer": "不相關的問題，我無法回答。 (｀・ω・´)b",
+      "TTFT": 0.4985088999965228,
+      "TPS": 31.67810277213435,
+      "token": 17,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::keyboard",
+          "embedding_similarity": 0.8445,
+          "bm25": 7.3169,
+          "lexical_similarity": 0.0816,
+          "score": 0.8445
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8387,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0247,
+          "score": 0.8387
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.8045,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0542,
+          "score": 0.8045
+        }
+      ],
+      "number": 40
+    },
+    {
+      "question": "這台電腦有 ARM 處理器版本嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.5390822000044864,
+      "TPS": 30.34501483305434,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8604,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0237,
+          "score": 0.8604
+        },
+        {
+          "chunk_id": "natural::cpu",
+          "embedding_similarity": 0.8601,
+          "bm25": 10.8877,
+          "lexical_similarity": 0.1513,
+          "score": 0.8601
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8409,
+          "bm25": 1.391,
+          "lexical_similarity": 0.0161,
+          "score": 0.8409
+        }
+      ],
+      "number": 41
+    },
+    {
+      "question": "這台電腦有 RTX 5080 的版本嗎？",
+      "answer": "是的，AORUS MASTER 16 BYH 模型有搭載 RTX 5080 記憶體的版本。 (｀・ω・´)b",
+      "TTFT": 0.8321921000024304,
+      "TPS": 28.139731241811194,
+      "token": 38,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8724,
+          "bm25": 3.2568,
+          "lexical_similarity": 0.0603,
+          "score": 0.8724
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8654,
+          "bm25": 3.7819,
+          "lexical_similarity": 0.0474,
+          "score": 0.8654
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8429,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0247,
+          "score": 0.8429
+        }
+      ],
+      "number": 42
+    },
+    {
+      "question": "這台電腦有 RTX 5070 Ti 的版本嗎？",
+      "answer": "AORUS MASTER 16 BXH 版本有使用 RTX 5070 Ti 搭配 12GB VRAM 的設定。 (｀・ω・´)b",
+      "TTFT": 0.8346294000002672,
+      "TPS": 28.078524119770098,
+      "token": 40,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.871,
+          "bm25": 5.1,
+          "lexical_similarity": 0.0567,
+          "score": 0.871
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8703,
+          "bm25": 4.2107,
+          "lexical_similarity": 0.0692,
+          "score": 0.8703
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8489,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0237,
+          "score": 0.8489
+        }
+      ],
+      "number": 43
+    },
+    {
+      "question": "這台電腦有 TPM 安全晶片嗎？",
+      "answer": "AORUS MASTER 16 AM6H 的 BZH、BYH、BXH 都支援 firmware-based TPM 和 Intel Platform Trust Technology，也就是 Intel PTT。因此，這台電腦有 TPM 安全晶片。 (｀・ω・´)b",
+      "TTFT": 0.5617552999974578,
+      "TPS": 29.432677646429653,
+      "token": 55,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::security",
+          "embedding_similarity": 0.8655,
+          "bm25": 12.316,
+          "lexical_similarity": 0.1618,
+          "score": 0.8655
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8484,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0247,
+          "score": 0.8484
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8358,
+          "bm25": 3.9178,
+          "lexical_similarity": 0.0237,
+          "score": 0.8358
+        }
+      ],
+      "number": 44
+    },
+    {
+      "question": "這台電腦有 IR Webcam 嗎？",
+      "answer": "有 IR Webcam。(｀・ω・´)b",
+      "TTFT": 0.6931811999966158,
+      "TPS": 30.754894256882285,
+      "token": 12,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.869,
+          "bm25": 6.6164,
+          "lexical_similarity": 0.1708,
+          "score": 0.869
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8358,
+          "bm25": 2.0918,
+          "lexical_similarity": 0.0283,
+          "score": 0.8358
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8314,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.029,
+          "score": 0.8314
+        }
+      ],
+      "number": 45
+    },
+    {
+      "question": "這台電腦有 RGB 鍵盤嗎？",
+      "answer": "有RGB鍵盤。AORUS MASTER 16 AM6H的BZH、BYH、BXH三款配置都具有3區RGB背光鍵盤。 (｀・ω・´)b",
+      "TTFT": 0.4892831999968621,
+      "TPS": 29.628293308240064,
+      "token": 45,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::keyboard",
+          "embedding_similarity": 0.8521,
+          "bm25": 10.4295,
+          "lexical_similarity": 0.1202,
+          "score": 0.8521
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8297,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0274,
+          "score": 0.8297
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.7967,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0599,
+          "score": 0.7967
+        }
+      ],
+      "number": 46
+    },
+    {
+      "question": "這台電腦有 VESA DisplayHDR True Black 500 嗎？",
+      "answer": "有 VESA DisplayHDR True Black 500 嗎？ (｀・ω・´)b",
+      "TTFT": 0.5220631999982288,
+      "TPS": 28.86911827791676,
+      "token": 21,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8618,
+          "bm25": 13.5365,
+          "lexical_similarity": 0.1348,
+          "score": 0.8618
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8502,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0247,
+          "score": 0.8502
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.813,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0542,
+          "score": 0.813
+        }
+      ],
+      "number": 47
+    },
+    {
+      "question": "這台電腦有 VESA ClearMR 10000 嗎？",
+      "answer": "有 VESA ClearMR 10000。 (｀・ω・´)b",
+      "TTFT": 0.21616950000316137,
+      "TPS": 31.670867895617754,
+      "token": 12,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8516,
+          "bm25": 8.3352,
+          "lexical_similarity": 0.0932,
+          "score": 0.8516
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8368,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0274,
+          "score": 0.8368
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.8134,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0599,
+          "score": 0.8134
+        }
+      ],
+      "number": 48
+    },
+    {
+      "question": "這台電腦有 AI PC 功能嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.8339176000008592,
+      "TPS": 30.157806276784772,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8551,
+          "bm25": 2.3744,
+          "lexical_similarity": 0.0379,
+          "score": 0.8551
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8376,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0259,
+          "score": 0.8376
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8372,
+          "bm25": 4.2575,
+          "lexical_similarity": 0.0497,
+          "score": 0.8372
+        }
+      ],
+      "number": 49
+    },
+    {
+      "question": "這台電腦有 GiMATE AI 助理嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.5412261000019498,
+      "TPS": 27.863380273847824,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8463,
+          "bm25": 2.3744,
+          "lexical_similarity": 0.0379,
+          "score": 0.8463
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8407,
+          "bm25": 2.9394,
+          "lexical_similarity": 0.0373,
+          "score": 0.8407
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8387,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0259,
+          "score": 0.8387
+        }
+      ],
+      "number": 50
+    },
+    {
+      "question": "請介紹一下這款電腦。",
+      "answer": "好的，讓我們來介紹一下這款AORUS MASTER 16 AM6H電腦。\n\nAORUS MASTER 16 AM6H是一款高階16吋AORUS筆電產品系列，共有3款變體：AORUS MASTER 16 BZH、AORUS MASTER 16 BYH和AORUS MASTER 16 BXH。產品系列著重於高性能、遊戲、創作者工作和AI相關的工作負載。\n\n- **CPU**: 使用Intel Core Ultra 9处理器275HX，提供強大的處理能力。\n- **螢幕**: 16吋16:10 OLED WQXGA 2560x1600 240Hz顯示器，提供高刷新率和出色的視覺體驗。\n- **記憶體**: 最多可支援64GB DDR5 5600MHz記憶體，提供充足的運算資源。\n- **存儲**: 支援PCIe Gen5和Gen4x4 M.2存儲插槽，提供高速存儲能力。\n- **連接埠**: 兩側各有1個Type-A USB 3.2 Gen2連接埠、1個Thunderbolt 5 Type-C連接埠（支援USB4、DisplayPort 2.1和Power Delivery 3.0）、1個MicroSD UHS-II插槽和1個耳麥連接埠（支援麥克風和耳機連接）。\n- **電池**: 99Wh電池，支援330W AC Adapter，重量約2.5公斤。\n- **顏色**: 暗 Tide顏色。\n\n主要優勢包括：\n- 高階Intel Core Ultra 9 CPU\n- OLED 240Hz顯示器\n- 高階NVIDIA GeForce RTX筆電GPU選項\n- Wi-Fi 7\n- Thunderbolt 5\n- 大型99Wh電池\n- 330W Adapter\n\n主要變體之間的差異在於GPU：BZH使用NVIDIA GeForce RTX 5090筆電GPU，具有24GB GDDR7 VRAM和175W圖形功率；BYH使用NVIDIA GeForce RTX 5080筆電GPU，具有16GB GDDR7 VRAM和175W圖形功率；BXH使用 (｀・ω・´)b",
+      "TTFT": 0.5080304999937653,
+      "TPS": 21.944650180396394,
+      "token": 502,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8547,
+          "bm25": 2.5555,
+          "lexical_similarity": 0.0266,
+          "score": 0.8547
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8402,
+          "bm25": 3.4832,
+          "lexical_similarity": 0.041,
+          "score": 0.8402
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8179,
+          "bm25": 2.0272,
+          "lexical_similarity": 0.0156,
+          "score": 0.8179
+        }
+      ],
+      "number": 51
+    },
+    {
+      "question": "你推薦 BZH 還是 BYH？",
+      "answer": "BZH 和 BYH 的主要差異在於 GPU，BYH 使用的是效能較高的 NVIDIA GeForce RTX 5080 Laptop GPU。因此，如果你偏好更高的效能，BYH 可能是更好的選擇。然而，如果你不需要那麼高的效能，BZH 也是一個很好的選項。請根據你的需求來做決定。 (｀・ω・´)b",
+      "TTFT": 0.7339978000018164,
+      "TPS": 30.2654049019583,
+      "token": 72,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8793,
+          "bm25": 0.0927,
+          "lexical_similarity": 0.2117,
+          "score": 0.8793
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8636,
+          "bm25": 2.8805,
+          "lexical_similarity": 0.0906,
+          "score": 0.8636
+        },
+        {
+          "chunk_id": "natural::audio",
+          "embedding_similarity": 0.8623,
+          "bm25": 0.0829,
+          "lexical_similarity": 0.1448,
+          "score": 0.8623
+        }
+      ],
+      "number": 52
+    },
+    {
+      "question": "這台適合打遊戲嗎？",
+      "answer": "適合打遊戲。AORUS MASTER 16 AM6H 系列特別針對遊戲、創作者工作和AI相關的工作負載，並具備高階的Intel Core Ultra 9 CPU、OLED 240Hz顯示器、高階的RTX筆電GPU選項、Wi-Fi 7、Thunderbolt 5、大容量99Wh電池和330W充電器等優勢。BYH模型使用的是24GB VRAM的RTX 5080 GPU，適合打遊戲。 (｀・ω・´)b",
+      "TTFT": 0.5910912000035751,
+      "TPS": 29.34015333071547,
+      "token": 125,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8444,
+          "bm25": 5.6701,
+          "lexical_similarity": 0.0565,
+          "score": 0.8444
+        }
+      ],
+      "number": 53
+    },
+    {
+      "question": "這台適合 AI 開發嗎？",
+      "answer": "適合 AI 開發。AORUS MASTER 16 AM6H 提供了高階的 NVIDIA GeForce RTX 5090 視覺處理晶片，具有 24GB GDDR7 VRAM 和 175W 的最大功耗，支援 Dynamic Boost 和 AI Boost，這些特性使得它適合進行 AI 開發工作。 (｀・ω・´)b",
+      "TTFT": 0.39010229999985313,
+      "TPS": 27.748259498770192,
+      "token": 83,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8403,
+          "bm25": 8.0446,
+          "lexical_similarity": 0.0989,
+          "score": 0.8403
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8225,
+          "bm25": 2.9394,
+          "lexical_similarity": 0.0417,
+          "score": 0.8225
+        }
+      ],
+      "number": 54
+    },
+    {
+      "question": "這台適合學生嗎？",
+      "answer": "適合學生喔，這款AORUS MASTER 16 AM6H有高階的配置，如Intel Core Ultra 9处理器、240Hz OLED螢幕、高階的RTX筆電GPU選項、Wi-Fi 7、Thunderbolt 5、大容量99Wh電池和330W充電器，適合學生使用，如遊戲、內容創作等。 (｀・ω・´)b",
+      "TTFT": 0.2756394000025466,
+      "TPS": 29.794469823146144,
+      "token": 94,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8434,
+          "bm25": 5.6701,
+          "lexical_similarity": 0.0604,
+          "score": 0.8434
+        }
+      ],
+      "number": 55
+    },
+    {
+      "question": "這台適合影片剪輯嗎？",
+      "answer": "這台適合影片剪輯的確是，它有高階的Intel Core Ultra 9 CPU、240Hz OLED顯示晶片、高階的RTX顯示卡選項、Wi-Fi 7、Thunderbolt 5、大容量的99Wh電池以及330W的充電器，這些都適合影片剪輯的工作需求。 (｀・ω・´)b",
+      "TTFT": 0.7747443999978714,
+      "TPS": 27.46326221846195,
+      "token": 86,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8317,
+          "bm25": 2.8351,
+          "lexical_similarity": 0.0266,
+          "score": 0.8317
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.823,
+          "bm25": 2.5762,
+          "lexical_similarity": 0.023,
+          "score": 0.823
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.817,
+          "bm25": 1.9589,
+          "lexical_similarity": 0.0131,
+          "score": 0.817
+        }
+      ],
+      "number": 56
+    },
+    {
+      "question": "這台值得購買嗎？",
+      "answer": "這台值得購買，因為它有高階的Intel Core Ultra 9 CPU、OLED 240Hz顯示器、高階的RTX筆電GPU選項、Wi-Fi 7、Thunderbolt 5、大容量的99Wh電池以及330W的適配器。這些特點使得它適合學生、遊戲、創作者工作以及AI相關的工作負載。 (｀・ω・´)b",
+      "TTFT": 0.2841543000031379,
+      "TPS": 29.842215099077247,
+      "token": 95,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8529,
+          "bm25": 4.2526,
+          "lexical_similarity": 0.0453,
+          "score": 0.8529
+        }
+      ],
+      "number": 57
+    },
+    {
+      "question": "如果預算有限，我該選哪個版本？",
+      "answer": "如果預算有限，我該選 BYH 版本。BYH 使用 NVIDIA GeForce RTX 5080 Laptop GPU，相較於其他版本，BYH 的 GPU 效能稍低，但仍然具有不錯的效能。其他配置如 CPU、顯示器、記憶體、儲存、鍵盤、端子、音訊、連接埠、攝影機、安全、電池、Adapter、尺寸、重量和顏色等都相同。因此，BYH 是一個較為經濟的選擇。 (｀・ω・´)b",
+      "TTFT": 0.3646547000025748,
+      "TPS": 29.59233573424552,
+      "token": 119,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8214,
+          "bm25": 4.0544,
+          "lexical_similarity": 0.0259,
+          "score": 0.8214
+        }
+      ],
+      "number": 58
+    },
+    {
+      "question": "哪個版本的 CP 值比較高？",
+      "answer": "BYH 的 CPU 值比較高。 (｀・ω・´)b",
+      "TTFT": 0.7398549999998068,
+      "TPS": 27.00797089630651,
+      "token": 16,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8327,
+          "bm25": 1.4175,
+          "lexical_similarity": 0.0126,
+          "score": 0.8327
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8207,
+          "bm25": 4.0544,
+          "lexical_similarity": 0.0295,
+          "score": 0.8207
+        }
+      ],
+      "number": 59
+    },
+    {
+      "question": "我應該買 RTX 5090 還是 RTX 5080 的版本？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.5166501000057906,
+      "TPS": 30.477965072960888,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8825,
+          "bm25": 7.9312,
+          "lexical_similarity": 0.1135,
+          "score": 0.8825
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8806,
+          "bm25": 7.5638,
+          "lexical_similarity": 0.0811,
+          "score": 0.8806
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8482,
+          "bm25": 11.8157,
+          "lexical_similarity": 0.1205,
+          "score": 0.8482
+        }
+      ],
+      "number": 60
+    },
+    {
+      "question": "這台適合跑大型語言模型嗎？",
+      "answer": "這台適合跑大型語言模型的是 AORUS MASTER 16 BZH，因為它使用了 NVIDIA GeForce RTX 5090 Laptop GPU，具有 24GB GDDR7 VRAM 和 175W 的圖形處理能力。 (｀・ω・´)b",
+      "TTFT": 0.332178800003021,
+      "TPS": 30.891795452897718,
+      "token": 64,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.848,
+          "bm25": 2.8351,
+          "lexical_similarity": 0.0214,
+          "score": 0.848
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8169,
+          "bm25": 4.0544,
+          "lexical_similarity": 0.0249,
+          "score": 0.8169
+        },
+        {
+          "chunk_id": "natural::dimensions",
+          "embedding_similarity": 0.8062,
+          "bm25": 3.0227,
+          "lexical_similarity": 0.0242,
+          "score": 0.8062
+        }
+      ],
+      "number": 61
+    },
+    {
+      "question": "這台適合作為工作站嗎？",
+      "answer": "這台適合作為工作站，因為它有高階的Intel Core Ultra 9处理器、高階的RTX筆記本GPU選項、Wi-Fi 7、Thunderbolt 5、大99Wh電池和330W Adapter，這些都是工作站所需的特性。 (｀・ω・´)b",
+      "TTFT": 0.2905365000042366,
+      "TPS": 31.11206000391067,
+      "token": 69,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8505,
+          "bm25": 9.4046,
+          "lexical_similarity": 0.0923,
+          "score": 0.8505
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.8265,
+          "bm25": 5.0577,
+          "lexical_similarity": 0.0525,
+          "score": 0.8265
+        }
+      ],
+      "number": 62
+    },
+    {
+      "question": "這台適合工程師嗎？",
+      "answer": "適合工程師喔，因為AORUS MASTER 16 AM6H有高階的Intel Core Ultra 9 CPU、OLED 240Hz顯示器、高階的RTX筆電GPU選項、Wi-Fi 7、Thunderbolt 5、大99Wh電池和330W Adapter，這些特性都適合工程師使用。 (｀・ω・´)b",
+      "TTFT": 0.3043561000013142,
+      "TPS": 29.66740587384031,
+      "token": 87,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.847,
+          "bm25": 4.2526,
+          "lexical_similarity": 0.0424,
+          "score": 0.847
+        }
+      ],
+      "number": 63
+    },
+    {
+      "question": "這台適合資料科學家嗎？",
+      "answer": "這台適合資料科學家嗎？ 不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.28592139999818755,
+      "TPS": 30.208043839463553,
+      "token": 29,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8401,
+          "bm25": 4.2526,
+          "lexical_similarity": 0.0379,
+          "score": 0.8401
+        }
+      ],
+      "number": 64
+    },
+    {
+      "question": "這台的優點有哪些？",
+      "answer": "這台的優點有：\n- Intel Core Ultra 9 Processor 275HX\n- OLED 240Hz顯示器\n- 高階 RTX 搶機選項\n- Wi-Fi 7\n- Thunderbolt 5\n- 大型 99Wh 電池\n- 330W 供電器 (｀・ω・´)b",
+      "TTFT": 0.21100319999823114,
+      "TPS": 28.261951233351628,
+      "token": 72,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8488,
+          "bm25": 4.6518,
+          "lexical_similarity": 0.0565,
+          "score": 0.8488
+        }
+      ],
+      "number": 65
+    },
+    {
+      "question": "這台的缺點有哪些？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.26109859999996843,
+      "TPS": 30.310015625669543,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8529,
+          "bm25": 2.3259,
+          "lexical_similarity": 0.0283,
+          "score": 0.8529
+        }
+      ],
+      "number": 66
+    },
+    {
+      "question": "如果我只玩 LOL 該選哪個版本？",
+      "answer": "BYH 版本。因為它使用的是效能較高的 NVIDIA GeForce RTX 5080 Laptop GPU，對於玩 LOL 來說應該會有更好的表現。 (｀・ω・´)b",
+      "TTFT": 0.2896420999968541,
+      "TPS": 31.543812778661394,
+      "token": 42,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8119,
+          "bm25": 4.0544,
+          "lexical_similarity": 0.0269,
+          "score": 0.8119
+        }
+      ],
+      "number": 67
+    },
+    {
+      "question": "如果我要玩 3A 遊戲該選哪個版本？",
+      "answer": "要玩 3A 遊戲，建議選擇 AORUS MASTER 16 BZH 版本，因為它使用了 NVIDIA GeForce RTX 5090 設備，提供了更高的 GPU 功率和 VRAM，適合玩大型遊戲。 (｀・ω・´)b",
+      "TTFT": 0.5726415999961318,
+      "TPS": 27.364984586682745,
+      "token": 52,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8313,
+          "bm25": 3.9731,
+          "lexical_similarity": 0.032,
+          "score": 0.8313
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8115,
+          "bm25": 5.6818,
+          "lexical_similarity": 0.0374,
+          "score": 0.8115
+        }
+      ],
+      "number": 68
+    },
+    {
+      "question": "如果我要做 AI 訓練該選哪個版本？",
+      "answer": "BYH 版本適合做 AI 訓練。BYH 使用 NVIDIA GeForce RTX 5080 視覺處理器，具有 16GB GDDR7 VRAM 和 175W 的最大功耗，適合進行 AI 訓練。 (｀・ω・´)b",
+      "TTFT": 0.5759658999959356,
+      "TPS": 26.175588975010843,
+      "token": 62,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.843,
+          "bm25": 3.5124,
+          "lexical_similarity": 0.0427,
+          "score": 0.843
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8355,
+          "bm25": 2.9394,
+          "lexical_similarity": 0.0315,
+          "score": 0.8355
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8135,
+          "bm25": 5.6818,
+          "lexical_similarity": 0.0374,
+          "score": 0.8135
+        }
+      ],
+      "number": 69
+    },
+    {
+      "question": "如果我要攜帶外出該選哪個版本？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.4056769000017084,
+      "TPS": 30.04442780230563,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8246,
+          "bm25": 1.138,
+          "lexical_similarity": 0.0107,
+          "score": 0.8246
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8227,
+          "bm25": 1.8882,
+          "lexical_similarity": 0.011,
+          "score": 0.8227
+        },
+        {
+          "chunk_id": "natural::color",
+          "embedding_similarity": 0.8073,
+          "bm25": 3.3519,
+          "lexical_similarity": 0.0269,
+          "score": 0.8073
+        }
+      ],
+      "number": 70
+    },
+    {
+      "question": "哪個 SKU 最適合內容創作？",
+      "answer": "AORUS MASTER 16 BXH 最適合內容創作。 (｀・ω・´)b",
+      "TTFT": 0.26706150000245543,
+      "TPS": 30.25266336907339,
+      "token": 22,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8412,
+          "bm25": 8.6754,
+          "lexical_similarity": 0.0885,
+          "score": 0.8412
+        },
+        {
+          "chunk_id": "natural::memory",
+          "embedding_similarity": 0.8171,
+          "bm25": 2.5137,
+          "lexical_similarity": 0.0294,
+          "score": 0.8171
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.8102,
+          "bm25": 2.5288,
+          "lexical_similarity": 0.0287,
+          "score": 0.8102
+        }
+      ],
+      "number": 71
+    },
+    {
+      "question": "哪個 SKU 最適合 AI 工作負載？",
+      "answer": "AORUS MASTER 16 BYH SKU 最適合 AI 工作負載。 (｀・ω・´)b",
+      "TTFT": 0.3437301000012667,
+      "TPS": 29.517480024504692,
+      "token": 26,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8617,
+          "bm25": 8.4943,
+          "lexical_similarity": 0.0964,
+          "score": 0.8617
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.851,
+          "bm25": 2.9394,
+          "lexical_similarity": 0.0355,
+          "score": 0.851
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.8394,
+          "bm25": 2.5288,
+          "lexical_similarity": 0.0274,
+          "score": 0.8394
+        }
+      ],
+      "number": 72
+    },
+    {
+      "question": "哪個 SKU 最適合電競玩家？",
+      "answer": "AORUS MASTER 16 BYH SKU 最適合電競玩家。 (｀・ω・´)b",
+      "TTFT": 0.3136921000041184,
+      "TPS": 30.270623154963463,
+      "token": 24,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8433,
+          "bm25": 2.8351,
+          "lexical_similarity": 0.0253,
+          "score": 0.8433
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8225,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0259,
+          "score": 0.8225
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.8182,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0568,
+          "score": 0.8182
+        }
+      ],
+      "number": 73
+    },
+    {
+      "question": "哪個版本最值得升級？",
+      "answer": "BYH版本最值得升級，因為它搭載了NVIDIA GeForce RTX 5080 Laptop GPU，具有較高的記憶體容量（16GB GDDR7 VRAM）和相同的175W圖形功率。相较于其他版本，BYH版本在GPU方面具有更高的性能。 (｀・ω・´)b",
+      "TTFT": 0.3009770999997272,
+      "TPS": 29.791817005996464,
+      "token": 67,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8286,
+          "bm25": 2.8351,
+          "lexical_similarity": 0.0266,
+          "score": 0.8286
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8086,
+          "bm25": 4.0544,
+          "lexical_similarity": 0.0311,
+          "score": 0.8086
+        }
+      ],
+      "number": 74
+    },
+    {
+      "question": "這系列和一般文書筆電有什麼差異？",
+      "answer": "這系列和一般文書筆電的主要差異在於效能方面。AORUS MASTER 16 AM6H系列使用了不同的GPU，具體來說，BZH使用NVIDIA GeForce RTX 5090 Laptop GPU，BYH使用NVIDIA GeForce RTX 5080 Laptop GPU，BXH使用NVIDIA GeForce RTX 5070 Ti Laptop GPU。這些GPU提供了不同的效能表現，因此在處理複雜的圖形和視覺效果時，AORUS MASTER 16 AM6H系列能提供更好的效能表現。其他如CPU、顯示器、記憶體、儲存、鍵盤、連接埠、音訊、連接性、攝影機、安全、電池、重量和顏色等特點，三款產品都相同。 (｀・ω・´)b",
+      "TTFT": 0.6077884000042104,
+      "TPS": 26.854071871348403,
+      "token": 174,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8534,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0212,
+          "score": 0.8534
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8452,
+          "bm25": 8.9231,
+          "lexical_similarity": 0.1205,
+          "score": 0.8452
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.8316,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0464,
+          "score": 0.8316
+        }
+      ],
+      "number": 75
+    },
+    {
+      "question": "這系列和電競桌機相比如何？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.4121863999971538,
+      "TPS": 30.780536073566843,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8435,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0237,
+          "score": 0.8435
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.828,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0518,
+          "score": 0.828
+        },
+        {
+          "chunk_id": "natural::battery",
+          "embedding_similarity": 0.8227,
+          "bm25": 2.9352,
+          "lexical_similarity": 0.0566,
+          "score": 0.8227
+        }
+      ],
+      "number": 76
+    },
+    {
+      "question": "你會推薦購買哪個 SKU？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.4968483999982709,
+      "TPS": 31.340645600539304,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8366,
+          "bm25": 4.2526,
+          "lexical_similarity": 0.04,
+          "score": 0.8366
+        }
+      ],
+      "number": 77
+    },
+    {
+      "question": "這台未來五年還夠用嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.2157526000009966,
+      "TPS": 29.781269117790547,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8525,
+          "bm25": 1.4175,
+          "lexical_similarity": 0.0126,
+          "score": 0.8525
+        }
+      ],
+      "number": 78
+    },
+    {
+      "question": "這台適合作為主力開發機嗎？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.28174120000039693,
+      "TPS": 28.80472955485397,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8545,
+          "bm25": 7.5374,
+          "lexical_similarity": 0.0692,
+          "score": 0.8545
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.828,
+          "bm25": 2.5288,
+          "lexical_similarity": 0.0262,
+          "score": 0.828
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8173,
+          "bm25": 2.9591,
+          "lexical_similarity": 0.0398,
+          "score": 0.8173
+        }
+      ],
+      "number": 79
+    },
+    {
+      "question": "這台適合研究生使用嗎？",
+      "answer": "適合研究生使用喔，因為AORUS MASTER 16 AM6H有高階的Intel Core Ultra 9处理器、240Hz OLED螢幕、高階的RTX筆電GPU選項、Wi-Fi 7、Thunderbolt 5、大容量的99Wh電池以及330W充電器，這些特性都很適合研究生使用。 (｀・ω・´)b",
+      "TTFT": 0.2050606999982847,
+      "TPS": 29.308032685629055,
+      "token": 88,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8453,
+          "bm25": 5.6701,
+          "lexical_similarity": 0.0506,
+          "score": 0.8453
+        }
+      ],
+      "number": 80
+    },
+    {
+      "question": "今天台北的天氣如何？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 81
+    },
+    {
+      "question": "世界上最高的山是哪一座？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 82
+    },
+    {
+      "question": "如何煮一碗好吃的泡麵？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 83
+    },
+    {
+      "question": "披薩上應不應該放鳳梨？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.31585630000336096,
+      "TPS": 31.530544053043734,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.7547,
+          "bm25": 6.3383,
+          "lexical_similarity": 0.0518,
+          "score": 0.7547
+        }
+      ],
+      "number": 84
+    },
+    {
+      "question": "巴黎鐵塔有多高？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 85
+    },
+    {
+      "question": "哪一種咖啡最好喝？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 86
+    },
+    {
+      "question": "你最喜歡的電影是什麼？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.5217543000035221,
+      "TPS": 30.578332837318893,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7737,
+          "bm25": 2.5762,
+          "lexical_similarity": 0.0218,
+          "score": 0.7737
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.7736,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0259,
+          "score": 0.7736
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.7634,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0568,
+          "score": 0.7634
+        }
+      ],
+      "number": 87
+    },
+    {
+      "question": "貓和狗哪個比較聰明？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 88
+    },
+    {
+      "question": "如何學好吉他？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.4876778000034392,
+      "TPS": 30.403410046598818,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.789,
+          "bm25": 1.4175,
+          "lexical_similarity": 0.0163,
+          "score": 0.789
+        }
+      ],
+      "number": 89
+    },
+    {
+      "question": "台積電的股價是多少？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.49511030000576284,
+      "TPS": 30.418504184780833,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.7763,
+          "bm25": 1.9674,
+          "lexical_similarity": 0.0274,
+          "score": 0.7763
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.7647,
+          "bm25": 2.8636,
+          "lexical_similarity": 0.0599,
+          "score": 0.7647
+        },
+        {
+          "chunk_id": "natural::battery",
+          "embedding_similarity": 0.7549,
+          "bm25": 2.9352,
+          "lexical_similarity": 0.0654,
+          "score": 0.7549
+        }
+      ],
+      "number": 90
+    },
+    {
+      "question": "牛頓第二運動定律是什麼？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.4994767999960459,
+      "TPS": 30.756579479909078,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7746,
+          "bm25": 1.4175,
+          "lexical_similarity": 0.0121,
+          "score": 0.7746
+        }
+      ],
+      "number": 91
+    },
+    {
+      "question": "量子力學是什麼？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.24813079999876209,
+      "TPS": 29.982982290383582,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.786,
+          "bm25": 1.4175,
+          "lexical_similarity": 0.0151,
+          "score": 0.786
+        },
+        {
+          "chunk_id": "natural::battery",
+          "embedding_similarity": 0.7667,
+          "bm25": 2.6401,
+          "lexical_similarity": 0.0371,
+          "score": 0.7667
+        },
+        {
+          "chunk_id": "natural::weight",
+          "embedding_similarity": 0.7508,
+          "bm25": 3.3752,
+          "lexical_similarity": 0.0693,
+          "score": 0.7508
+        }
+      ],
+      "number": 92
+    },
+    {
+      "question": "如何準備馬拉松？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 93
+    },
+    {
+      "question": "如何學好英文？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.2233364999992773,
+      "TPS": 30.390148729378485,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7984,
+          "bm25": 1.4175,
+          "lexical_similarity": 0.0163,
+          "score": 0.7984
+        }
+      ],
+      "number": 94
+    },
+    {
+      "question": "世界人口有多少？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 95
+    },
+    {
+      "question": "Python 和 C++ 哪個比較好？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.29487190000509145,
+      "TPS": 29.68668361642367,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8316,
+          "bm25": 1.138,
+          "lexical_similarity": 0.0141,
+          "score": 0.8316
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8183,
+          "bm25": 3.7003,
+          "lexical_similarity": 0.087,
+          "score": 0.8183
+        }
+      ],
+      "number": 96
+    },
+    {
+      "question": "什麼是區塊鏈？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 97
+    },
+    {
+      "question": "什麼是 ETF？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 98
+    },
+    {
+      "question": "什麼是黑洞？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 99
+    },
+    {
+      "question": "如何投資美股？",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": null,
+      "TPS": 0.0,
+      "token": 0,
+      "retrieved_chunks": [],
+      "number": 100
+    },
+    {
+      "question": "Please tell me the operating system configuration of this laptop.",
+      "answer": "AORUS MASTER 16 AM6H has the same operating system configuration for all 3 models: Windows 11 Pro, Windows 11 Home, and UEFI Shell OS. (｀・ω・´)b",
+      "TTFT": 0.33411229999910574,
+      "TPS": 30.818101165842055,
+      "token": 48,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8418,
+          "bm25": 1.6541,
+          "lexical_similarity": 0.0632,
+          "score": 0.8418
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.8384,
+          "bm25": 8.5716,
+          "lexical_similarity": 0.1437,
+          "score": 0.8384
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8362,
+          "bm25": 0.1312,
+          "lexical_similarity": 0.0649,
+          "score": 0.8362
+        }
+      ],
+      "number": 101
+    },
+    {
+      "question": "Please tell me the CPU configuration of this laptop.",
+      "answer": "The CPU configuration of this laptop is Intel Core Ultra 9 Processor 275HX. (｀・ω・´)b",
+      "TTFT": 0.534911300004751,
+      "TPS": 29.411540434869934,
+      "token": 27,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8414,
+          "bm25": 2.608,
+          "lexical_similarity": 0.0799,
+          "score": 0.8414
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8304,
+          "bm25": 0.1312,
+          "lexical_similarity": 0.0684,
+          "score": 0.8304
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8285,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0393,
+          "score": 0.8285
+        }
+      ],
+      "number": 102
+    },
+    {
+      "question": "Please tell me the GPU configuration of this laptop.",
+      "answer": "The GPU configuration of this laptop varies by model. Here are the details:\n\n- AORUS MASTER 16 BZH uses NVIDIA GeForce RTX 5090 Laptop GPU with 24GB VRAM and 175W Graphics Power.\n- AORUS MASTER 16 BYH uses NVIDIA GeForce RTX 5080 Laptop GPU with 16GB VRAM and 175W Graphics Power.\n- AORUS MASTER 16 BXH uses NVIDIA GeForce RTX 5070 Ti Laptop GPU with 12GB VRAM and 140W Graphics Power.\n\nEach model has a different GPU configuration. (｀・ω・´)b",
+      "TTFT": 0.8207251999992877,
+      "TPS": 27.240742299019775,
+      "token": 146,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8512,
+          "bm25": 5.7415,
+          "lexical_similarity": 0.1309,
+          "score": 0.8512
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8477,
+          "bm25": 3.2192,
+          "lexical_similarity": 0.0933,
+          "score": 0.8477
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8356,
+          "bm25": 0.1312,
+          "lexical_similarity": 0.0684,
+          "score": 0.8356
+        }
+      ],
+      "number": 103
+    },
+    {
+      "question": "Please tell me the display configuration of this laptop.",
+      "answer": "AORUS MASTER 16 AM6H has a 16-inch 16:10 OLED display with a resolution of WQXGA 2560x1600 and a refresh rate of 240Hz. (｀・ω・´)b",
+      "TTFT": 0.9627755999972578,
+      "TPS": 29.38538445157223,
+      "token": 61,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.838,
+          "bm25": 3.2192,
+          "lexical_similarity": 0.0933,
+          "score": 0.838
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8374,
+          "bm25": 0.1312,
+          "lexical_similarity": 0.0684,
+          "score": 0.8374
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8339,
+          "bm25": 2.9365,
+          "lexical_similarity": 0.1118,
+          "score": 0.8339
+        }
+      ],
+      "number": 104
+    },
+    {
+      "question": "Please tell me the memory configuration of this laptop.",
+      "answer": "For the AORUS MASTER 16 AM6H, all three models BZH, BYH, and BXH support up to 64GB DDR5 5600MHz memory and provide 2 SO-DIMM slots for expansion. (｀・ω・´)b",
+      "TTFT": 0.7095063999950071,
+      "TPS": 29.604433326956375,
+      "token": 61,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::memory",
+          "embedding_similarity": 0.841,
+          "bm25": 2.8443,
+          "lexical_similarity": 0.1238,
+          "score": 0.841
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8376,
+          "bm25": 2.4704,
+          "lexical_similarity": 0.0799,
+          "score": 0.8376
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.833,
+          "bm25": 4.1959,
+          "lexical_similarity": 0.0655,
+          "score": 0.833
+        }
+      ],
+      "number": 105
+    },
+    {
+      "question": "Please tell me the storage configuration of this laptop.",
+      "answer": "AORUS MASTER 16 AM6H has 3 models: AORUS MASTER 16 BZH, AORUS MASTER 16 BYH, and AORUS MASTER 16 BXH. All models provide 1 PCIe Gen5 M.2 slot and 1 PCIe Gen4x4 M.2 slot, and support up to 4TB PCIe NVMe M.2 SSD. (｀・ω・´)b",
+      "TTFT": 0.6976863999952911,
+      "TPS": 28.335204260632096,
+      "token": 94,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.834,
+          "bm25": 2.608,
+          "lexical_similarity": 0.0799,
+          "score": 0.834
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8323,
+          "bm25": 3.0771,
+          "lexical_similarity": 0.0994,
+          "score": 0.8323
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8317,
+          "bm25": 0.1312,
+          "lexical_similarity": 0.0684,
+          "score": 0.8317
+        }
+      ],
+      "number": 106
+    },
+    {
+      "question": "Please tell me the keyboard type of this laptop.",
+      "answer": "The keyboard type of this laptop is a 3-zone RGB backlit keyboard. (｀・ω・´)b",
+      "TTFT": 0.7208470999976271,
+      "TPS": 30.605440652568475,
+      "token": 24,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::keyboard",
+          "embedding_similarity": 0.8423,
+          "bm25": 3.9157,
+          "lexical_similarity": 0.1202,
+          "score": 0.8423
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8241,
+          "bm25": 2.7921,
+          "lexical_similarity": 0.0799,
+          "score": 0.8241
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8182,
+          "bm25": 3.8314,
+          "lexical_similarity": 0.1504,
+          "score": 0.8182
+        }
+      ],
+      "number": 107
+    },
+    {
+      "question": "Please tell me the port configuration of this laptop.",
+      "answer": "The port configuration of this laptop is as follows:\n\n- Left side ports: DC in, RJ-45, HDMI 2.1, 1 Type-A port supporting USB 3.2 Gen2, 1 Thunderbolt 5 Type-C port supporting USB4, DisplayPort 2.1, and Power Delivery 3.0.\n- Right side ports: 1 Type-A port supporting USB 3.2 Gen2, 1 Thunderbolt 4 Type-C port supporting USB4, DisplayPort 1.4, and Power Delivery 3.0, 1 MicroSD UHS-II slot, 1 audio jack supporting microphone and headphone combo.\n\nThe specifications mention that both the Thunderbolt 5 Type-C port and the Thunderbolt 4 Type-C port support Power Delivery 3.0, but the USB-C charging wattage is not specified. (｀・ω・´)b",
+      "TTFT": 0.82012759999634,
+      "TPS": 25.735246301515957,
+      "token": 186,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8506,
+          "bm25": 4.9383,
+          "lexical_similarity": 0.1641,
+          "score": 0.8506
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8278,
+          "bm25": 1.6541,
+          "lexical_similarity": 0.0666,
+          "score": 0.8278
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8146,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0393,
+          "score": 0.8146
+        }
+      ],
+      "number": 108
+    },
+    {
+      "question": "Please tell me the audio configuration of this laptop.",
+      "answer": "AORUS MASTER 16 AM6H has 4 2W speakers, a microphone, Dolby Atmos, and Smart Amp Technology. (｀・ω・´)b",
+      "TTFT": 0.6864531000028364,
+      "TPS": 29.837536185870203,
+      "token": 38,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8345,
+          "bm25": 1.4017,
+          "lexical_similarity": 0.0821,
+          "score": 0.8345
+        },
+        {
+          "chunk_id": "natural::audio",
+          "embedding_similarity": 0.8305,
+          "bm25": 2.9468,
+          "lexical_similarity": 0.0958,
+          "score": 0.8305
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8286,
+          "bm25": 1.6541,
+          "lexical_similarity": 0.0666,
+          "score": 0.8286
+        }
+      ],
+      "number": 109
+    },
+    {
+      "question": "Please tell me the communication and networking configuration of this laptop.",
+      "answer": "For the AORUS MASTER 16 AM6H, the connectivity and networking configuration includes Wi-Fi 7 802.11be 2x2, 1G LAN, and Bluetooth v5.4. (｀・ω・´)b",
+      "TTFT": 0.6388877999997931,
+      "TPS": 28.900038225391494,
+      "token": 56,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::connectivity",
+          "embedding_similarity": 0.8278,
+          "bm25": 5.9427,
+          "lexical_similarity": 0.1534,
+          "score": 0.8278
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.821,
+          "bm25": 1.7008,
+          "lexical_similarity": 0.1808,
+          "score": 0.821
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8024,
+          "bm25": 2.4829,
+          "lexical_similarity": 0.0474,
+          "score": 0.8024
+        }
+      ],
+      "number": 110
+    },
+    {
+      "question": "Please tell me the webcam configuration of this laptop.",
+      "answer": "The webcam configuration of this laptop is an FHD 1080p IR webcam. (｀・ω・´)b",
+      "TTFT": 0.6961901000031503,
+      "TPS": 29.503879159280384,
+      "token": 27,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8519,
+          "bm25": 3.2907,
+          "lexical_similarity": 0.161,
+          "score": 0.8519
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8266,
+          "bm25": 2.608,
+          "lexical_similarity": 0.0799,
+          "score": 0.8266
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8227,
+          "bm25": 0.1312,
+          "lexical_similarity": 0.0684,
+          "score": 0.8227
+        }
+      ],
+      "number": 111
+    },
+    {
+      "question": "Please tell me the security features of this laptop.",
+      "answer": "The laptop supports firmware-based TPM and Intel Platform Trust Technology, also known as Intel PTT. It also has Windows Hello Face Authentication through the IR webcam. (｀・ω・´)b",
+      "TTFT": 0.5736195999998017,
+      "TPS": 29.13336312404836,
+      "token": 39,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::security",
+          "embedding_similarity": 0.8404,
+          "bm25": 3.3862,
+          "lexical_similarity": 0.0894,
+          "score": 0.8404
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8344,
+          "bm25": 0.1295,
+          "lexical_similarity": 0.069,
+          "score": 0.8344
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8339,
+          "bm25": 3.0717,
+          "lexical_similarity": 0.0799,
+          "score": 0.8339
+        }
+      ],
+      "number": 112
+    },
+    {
+      "question": "Please tell me the battery configuration of this laptop.",
+      "answer": "The battery configuration of this laptop is a Li-ion 99Wh battery. (｀・ω・´)b",
+      "TTFT": 0.6070345999978599,
+      "TPS": 30.194083796427154,
+      "token": 24,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::battery",
+          "embedding_similarity": 0.8375,
+          "bm25": 3.3925,
+          "lexical_similarity": 0.1307,
+          "score": 0.8375
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8364,
+          "bm25": 3.2192,
+          "lexical_similarity": 0.0933,
+          "score": 0.8364
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8354,
+          "bm25": 0.1312,
+          "lexical_similarity": 0.0684,
+          "score": 0.8354
+        }
+      ],
+      "number": 113
+    },
+    {
+      "question": "Please tell me the power adapter configuration of this laptop.",
+      "answer": "AORUS MASTER 16 BZH, AORUS MASTER 16 BYH, and AORUS MASTER 16 BXH all use a 330W AC adapter. (｀・ω・´)b",
+      "TTFT": 0.5883393000040087,
+      "TPS": 30.101856080420962,
+      "token": 49,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8501,
+          "bm25": 2.1391,
+          "lexical_similarity": 0.1168,
+          "score": 0.8501
+        },
+        {
+          "chunk_id": "natural::adapter",
+          "embedding_similarity": 0.8369,
+          "bm25": 3.5514,
+          "lexical_similarity": 0.142,
+          "score": 0.8369
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.832,
+          "bm25": 4.925,
+          "lexical_similarity": 0.139,
+          "score": 0.832
+        }
+      ],
+      "number": 114
+    },
+    {
+      "question": "Please tell me the dimensions of this laptop.",
+      "answer": "AORUS MASTER 16 BZH, AORUS MASTER 16 BYH, and AORUS MASTER 16 BXH all measure 357 x 254 x 23~29.9 mm. (｀・ω・´)b",
+      "TTFT": 0.6056766999972751,
+      "TPS": 30.24035792478018,
+      "token": 60,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8322,
+          "bm25": 1.6541,
+          "lexical_similarity": 0.0707,
+          "score": 0.8322
+        },
+        {
+          "chunk_id": "natural::dimensions",
+          "embedding_similarity": 0.8221,
+          "bm25": 3.8559,
+          "lexical_similarity": 0.128,
+          "score": 0.8221
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8218,
+          "bm25": 0.1312,
+          "lexical_similarity": 0.0725,
+          "score": 0.8218
+        }
+      ],
+      "number": 115
+    },
+    {
+      "question": "Please tell me the weight of this laptop.",
+      "answer": "AORUS MASTER 16 BZH, AORUS MASTER 16 BYH, and AORUS MASTER 16 BXH all weigh around 2.5 kg. (｀・ω・´)b",
+      "TTFT": 0.4099586999946041,
+      "TPS": 29.858876151194814,
+      "token": 47,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8334,
+          "bm25": 2.608,
+          "lexical_similarity": 0.0848,
+          "score": 0.8334
+        },
+        {
+          "chunk_id": "natural::weight",
+          "embedding_similarity": 0.8262,
+          "bm25": 3.2973,
+          "lexical_similarity": 0.1296,
+          "score": 0.8262
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8228,
+          "bm25": 0.1312,
+          "lexical_similarity": 0.0725,
+          "score": 0.8228
+        }
+      ],
+      "number": 116
+    },
+    {
+      "question": "Please tell me the color of this laptop.",
+      "answer": "The color of this laptop is Dark Tide. (｀・ω・´)b",
+      "TTFT": 0.33375789999990957,
+      "TPS": 29.87365902432789,
+      "token": 17,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8206,
+          "bm25": 2.608,
+          "lexical_similarity": 0.0848,
+          "score": 0.8206
+        },
+        {
+          "chunk_id": "natural::color",
+          "embedding_similarity": 0.8117,
+          "bm25": 3.0732,
+          "lexical_similarity": 0.1066,
+          "score": 0.8117
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8089,
+          "bm25": 0.0943,
+          "lexical_similarity": 0.0395,
+          "score": 0.8089
+        }
+      ],
+      "number": 117
+    },
+    {
+      "question": "Please tell me which display technologies this laptop supports.",
+      "answer": "This laptop supports NVIDIA G-SYNC, NVIDIA Advanced Optimus, VESA DisplayHDR True Black 500, and VESA ClearMR 10000. (｀・ω・´)b",
+      "TTFT": 0.8276401999974041,
+      "TPS": 28.89953398851268,
+      "token": 44,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8405,
+          "bm25": 4.9094,
+          "lexical_similarity": 0.0932,
+          "score": 0.8405
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8341,
+          "bm25": 3.1302,
+          "lexical_similarity": 0.0533,
+          "score": 0.8341
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8237,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0393,
+          "score": 0.8237
+        }
+      ],
+      "number": 118
+    },
+    {
+      "question": "Please tell me which AI-related features this laptop provides.",
+      "answer": "This laptop provides AI-related features such as NVIDIA GeForce RTX 5090 Laptop GPU with AI Boost 1797 MHz, NVIDIA GeForce RTX 5080 Laptop GPU with AI Boost 1902 MHz, and NVIDIA GeForce RTX 5070 Ti Laptop GPU with AI Boost 1962 MHz. These features are designed to support AI-related workloads. (｀・ω・´)b",
+      "TTFT": 0.8273737000054098,
+      "TPS": 28.271990438163478,
+      "token": 92,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.844,
+          "bm25": 6.7746,
+          "lexical_similarity": 0.0885,
+          "score": 0.844
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8294,
+          "bm25": 5.4032,
+          "lexical_similarity": 0.0745,
+          "score": 0.8294
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8051,
+          "bm25": 2.5166,
+          "lexical_similarity": 0.0443,
+          "score": 0.8051
+        }
+      ],
+      "number": 119
+    },
+    {
+      "question": "Please tell me which cooling technologies this laptop uses.",
+      "answer": "The context does not mention any specific cooling technologies used in this laptop. (｀・ω・´)b",
+      "TTFT": 0.4003699000022607,
+      "TPS": 28.52141978086013,
+      "token": 22,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8288,
+          "bm25": 3.9395,
+          "lexical_similarity": 0.0666,
+          "score": 0.8288
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8229,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0393,
+          "score": 0.8229
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8043,
+          "bm25": 2.0672,
+          "lexical_similarity": 0.0186,
+          "score": 0.8043
+        }
+      ],
+      "number": 120
+    },
+    {
+      "question": "Does this laptop have an OLED display?",
+      "answer": "The AORUS MASTER 16 AM6H has an OLED display. (｀・ω・´)b",
+      "TTFT": 0.62652170000365,
+      "TPS": 28.803443739633522,
+      "token": 24,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8467,
+          "bm25": 6.5486,
+          "lexical_similarity": 0.1479,
+          "score": 0.8467
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.83,
+          "bm25": 4.9974,
+          "lexical_similarity": 0.0906,
+          "score": 0.83
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8158,
+          "bm25": 4.0597,
+          "lexical_similarity": 0.0522,
+          "score": 0.8158
+        }
+      ],
+      "number": 121
+    },
+    {
+      "question": "Does this laptop support NVIDIA G-SYNC?",
+      "answer": "The laptop supports NVIDIA G-SYNC as it includes NVIDIA Advanced Optimus technology. (｀・ω・´)b",
+      "TTFT": 0.604451599996537,
+      "TPS": 29.615849119064126,
+      "token": 24,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8304,
+          "bm25": 6.2433,
+          "lexical_similarity": 0.0845,
+          "score": 0.8304
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8267,
+          "bm25": 4.9275,
+          "lexical_similarity": 0.0891,
+          "score": 0.8267
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.824,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0302,
+          "score": 0.824
+        }
+      ],
+      "number": 122
+    },
+    {
+      "question": "Does this laptop support NVIDIA Advanced Optimus?",
+      "answer": "The laptop supports NVIDIA Advanced Optimus. (｀・ω・´)b",
+      "TTFT": 0.21833370000240393,
+      "TPS": 29.077908622408177,
+      "token": 16,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8339,
+          "bm25": 6.2433,
+          "lexical_similarity": 0.0845,
+          "score": 0.8339
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8334,
+          "bm25": 4.9275,
+          "lexical_similarity": 0.0891,
+          "score": 0.8334
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.829,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0302,
+          "score": 0.829
+        }
+      ],
+      "number": 123
+    },
+    {
+      "question": "Does this laptop support Dolby Vision?",
+      "answer": "Yes, this laptop supports Dolby Vision. (｀・ω・´)b",
+      "TTFT": 0.5395582000055583,
+      "TPS": 29.96628088318049,
+      "token": 17,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.829,
+          "bm25": 5.6499,
+          "lexical_similarity": 0.0913,
+          "score": 0.829
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8021,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0326,
+          "score": 0.8021
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.7981,
+          "bm25": 1.1928,
+          "lexical_similarity": 0.0371,
+          "score": 0.7981
+        }
+      ],
+      "number": 124
+    },
+    {
+      "question": "Does this laptop have Pantone Validated certification?",
+      "answer": "The laptop has Pantone Validated certification. (｀・ω・´)b",
+      "TTFT": 0.5526444999995874,
+      "TPS": 28.819357385863388,
+      "token": 17,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8369,
+          "bm25": 10.5925,
+          "lexical_similarity": 0.1479,
+          "score": 0.8369
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8152,
+          "bm25": 1.4835,
+          "lexical_similarity": 0.0261,
+          "score": 0.8152
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8066,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0302,
+          "score": 0.8066
+        }
+      ],
+      "number": 125
+    },
+    {
+      "question": "Does this laptop have a low blue light certification?",
+      "answer": "The laptop has a TUV Rheinland Low Blue Light certification. (｀・ω・´)b",
+      "TTFT": 0.18057820000103675,
+      "TPS": 28.92976694174367,
+      "token": 22,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8542,
+          "bm25": 17.8929,
+          "lexical_similarity": 0.2981,
+          "score": 0.8542
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8268,
+          "bm25": 1.4835,
+          "lexical_similarity": 0.023,
+          "score": 0.8268
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8208,
+          "bm25": 2.1802,
+          "lexical_similarity": 0.04,
+          "score": 0.8208
+        }
+      ],
+      "number": 126
+    },
+    {
+      "question": "Does this laptop support Wi‑Fi 7?",
+      "answer": "Yes, this laptop supports Wi-Fi 7. (｀・ω・´)b",
+      "TTFT": 0.5452258000004804,
+      "TPS": 29.023106423715173,
+      "token": 18,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::connectivity",
+          "embedding_similarity": 0.8346,
+          "bm25": 9.8722,
+          "lexical_similarity": 0.1924,
+          "score": 0.8346
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.804,
+          "bm25": 1.1928,
+          "lexical_similarity": 0.0344,
+          "score": 0.804
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7982,
+          "bm25": 7.1668,
+          "lexical_similarity": 0.1209,
+          "score": 0.7982
+        }
+      ],
+      "number": 127
+    },
+    {
+      "question": "Does this laptop support Bluetooth?",
+      "answer": "Yes, this laptop supports Bluetooth v5.4. (｀・ω・´)b",
+      "TTFT": 0.26310599999851547,
+      "TPS": 31.16947714193629,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::connectivity",
+          "embedding_similarity": 0.8315,
+          "bm25": 5.111,
+          "lexical_similarity": 0.1138,
+          "score": 0.8315
+        },
+        {
+          "chunk_id": "natural::security",
+          "embedding_similarity": 0.8183,
+          "bm25": 1.138,
+          "lexical_similarity": 0.04,
+          "score": 0.8183
+        },
+        {
+          "chunk_id": "natural::keyboard",
+          "embedding_similarity": 0.816,
+          "bm25": 1.1786,
+          "lexical_similarity": 0.0403,
+          "score": 0.816
+        }
+      ],
+      "number": 128
+    },
+    {
+      "question": "Does this laptop support Windows Hello?",
+      "answer": "Yes, this laptop supports Windows Hello. (｀・ω・´)b",
+      "TTFT": 0.2911420999953407,
+      "TPS": 31.21821473570903,
+      "token": 16,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8319,
+          "bm25": 6.3502,
+          "lexical_similarity": 0.1972,
+          "score": 0.8319
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.8177,
+          "bm25": 3.6335,
+          "lexical_similarity": 0.1113,
+          "score": 0.8177
+        },
+        {
+          "chunk_id": "natural::security",
+          "embedding_similarity": 0.8099,
+          "bm25": 4.8909,
+          "lexical_similarity": 0.1095,
+          "score": 0.8099
+        }
+      ],
+      "number": 129
+    },
+    {
+      "question": "Is there an RTX 5090 version of this laptop?",
+      "answer": "Yes, there is an RTX 5090 version of this laptop, which is the AORUS MASTER 16 BZH model. (｀・ω・´)b",
+      "TTFT": 0.8231790999998339,
+      "TPS": 26.833577943207054,
+      "token": 39,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8414,
+          "bm25": 6.387,
+          "lexical_similarity": 0.1199,
+          "score": 0.8414
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8411,
+          "bm25": 6.2456,
+          "lexical_similarity": 0.0917,
+          "score": 0.8411
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8154,
+          "bm25": 4.3097,
+          "lexical_similarity": 0.046,
+          "score": 0.8154
+        }
+      ],
+      "number": 130
+    },
+    {
+      "question": "Does this laptop support Thunderbolt 5?",
+      "answer": "Yes, this laptop supports Thunderbolt 5. (｀・ω・´)b",
+      "TTFT": 0.6288884000023245,
+      "TPS": 29.983613954989405,
+      "token": 18,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8427,
+          "bm25": 5.1823,
+          "lexical_similarity": 0.1173,
+          "score": 0.8427
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8258,
+          "bm25": 5.6428,
+          "lexical_similarity": 0.1305,
+          "score": 0.8258
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.8051,
+          "bm25": 1.1928,
+          "lexical_similarity": 0.0371,
+          "score": 0.8051
+        }
+      ],
+      "number": 131
+    },
+    {
+      "question": "Does this laptop have a 5G SIM card slot?",
+      "answer": "The provided specifications do not mention it. (｀・ω・´)b",
+      "TTFT": 0.30130279999866616,
+      "TPS": 29.40406775902564,
+      "token": 16,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8188,
+          "bm25": 2.7845,
+          "lexical_similarity": 0.041,
+          "score": 0.8188
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8126,
+          "bm25": 2.1802,
+          "lexical_similarity": 0.04,
+          "score": 0.8126
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8051,
+          "bm25": 4.4226,
+          "lexical_similarity": 0.0524,
+          "score": 0.8051
+        }
+      ],
+      "number": 132
+    },
+    {
+      "question": "Does this laptop have a touchscreen?",
+      "answer": "The laptop does not have a touchscreen. (｀・ω・´)b",
+      "TTFT": 0.6372044000017922,
+      "TPS": 29.544372231052893,
+      "token": 16,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8099,
+          "bm25": 1.4835,
+          "lexical_similarity": 0.0282,
+          "score": 0.8099
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8068,
+          "bm25": 2.1802,
+          "lexical_similarity": 0.049,
+          "score": 0.8068
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8021,
+          "bm25": 2.0874,
+          "lexical_similarity": 0.0456,
+          "score": 0.8021
+        }
+      ],
+      "number": 133
+    },
+    {
+      "question": "Does this laptop have an optical drive?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.6299475999985589,
+      "TPS": 29.94459776626051,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8142,
+          "bm25": 1.1905,
+          "lexical_similarity": 0.0211,
+          "score": 0.8142
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8102,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0302,
+          "score": 0.8102
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8014,
+          "bm25": 2.7379,
+          "lexical_similarity": 0.0282,
+          "score": 0.8014
+        }
+      ],
+      "number": 134
+    },
+    {
+      "question": "Does this laptop support ECC RAM?",
+      "answer": "The provided specifications do not mention ECC RAM support. (｀・ω・´)b",
+      "TTFT": 0.6173034999956144,
+      "TPS": 29.61723670530917,
+      "token": 18,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::memory",
+          "embedding_similarity": 0.8171,
+          "bm25": 4.3169,
+          "lexical_similarity": 0.0758,
+          "score": 0.8171
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8108,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0326,
+          "score": 0.8108
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8055,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0481,
+          "score": 0.8055
+        }
+      ],
+      "number": 135
+    },
+    {
+      "question": "Is the SSD in this laptop TLC or QLC?",
+      "answer": "The provided specifications do not mention the SSD type (TLC or QLC). (｀・ω・´)b",
+      "TTFT": 0.8387880999944173,
+      "TPS": 28.933866584305893,
+      "token": 24,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8193,
+          "bm25": 1.4017,
+          "lexical_similarity": 0.0821,
+          "score": 0.8193
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8078,
+          "bm25": 3.2192,
+          "lexical_similarity": 0.0933,
+          "score": 0.8078
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8028,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0393,
+          "score": 0.8028
+        }
+      ],
+      "number": 136
+    },
+    {
+      "question": "Does this laptop use liquid metal cooling?",
+      "answer": "The provided specifications do not mention it. (｀・ω・´)b",
+      "TTFT": 0.6282137000016519,
+      "TPS": 30.080463359352688,
+      "token": 16,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8067,
+          "bm25": 2.3814,
+          "lexical_similarity": 0.0453,
+          "score": 0.8067
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8013,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0445,
+          "score": 0.8013
+        },
+        {
+          "chunk_id": "natural::battery",
+          "embedding_similarity": 0.7873,
+          "bm25": 1.8938,
+          "lexical_similarity": 0.0371,
+          "score": 0.7873
+        }
+      ],
+      "number": 137
+    },
+    {
+      "question": "Does this laptop support CUDA 13?",
+      "answer": "The provided specifications do not mention CUDA 13 support. (｀・ω・´)b",
+      "TTFT": 0.6355750000002445,
+      "TPS": 30.173949803138722,
+      "token": 20,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.8167,
+          "bm25": 1.1928,
+          "lexical_similarity": 0.0371,
+          "score": 0.8167
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8152,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0481,
+          "score": 0.8152
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.814,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0326,
+          "score": 0.814
+        }
+      ],
+      "number": 138
+    },
+    {
+      "question": "Does this laptop have a dual-screen design?",
+      "answer": "The laptop does not have a dual-screen design. (｀・ω・´)b",
+      "TTFT": 0.6333477000007406,
+      "TPS": 28.775791502036586,
+      "token": 18,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8154,
+          "bm25": 2.1802,
+          "lexical_similarity": 0.0424,
+          "score": 0.8154
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8131,
+          "bm25": 4.1547,
+          "lexical_similarity": 0.0593,
+          "score": 0.8131
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8079,
+          "bm25": 1.4835,
+          "lexical_similarity": 0.0244,
+          "score": 0.8079
+        }
+      ],
+      "number": 139
+    },
+    {
+      "question": "Does this laptop have a detachable keyboard?",
+      "answer": "The provided specifications do not mention it. (｀・ω・´)b",
+      "TTFT": 0.5785916000022553,
+      "TPS": 29.136467931912048,
+      "token": 16,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::keyboard",
+          "embedding_similarity": 0.8214,
+          "bm25": 6.965,
+          "lexical_similarity": 0.1704,
+          "score": 0.8214
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8071,
+          "bm25": 1.4835,
+          "lexical_similarity": 0.0261,
+          "score": 0.8071
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8022,
+          "bm25": 2.1802,
+          "lexical_similarity": 0.0453,
+          "score": 0.8022
+        }
+      ],
+      "number": 140
+    },
+    {
+      "question": "Is there an ARM processor version of this laptop?",
+      "answer": "The provided specifications do not mention an ARM processor version of this laptop. (｀・ω・´)b",
+      "TTFT": 0.5874569000006886,
+      "TPS": 28.636455639932105,
+      "token": 22,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8338,
+          "bm25": 4.2682,
+          "lexical_similarity": 0.0666,
+          "score": 0.8338
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8337,
+          "bm25": 4.3097,
+          "lexical_similarity": 0.046,
+          "score": 0.8337
+        },
+        {
+          "chunk_id": "natural::cpu",
+          "embedding_similarity": 0.8302,
+          "bm25": 3.2701,
+          "lexical_similarity": 0.0582,
+          "score": 0.8302
+        }
+      ],
+      "number": 141
+    },
+    {
+      "question": "Is there an RTX 5080 version of this laptop?",
+      "answer": "Yes, there is an RTX 5080 version of this laptop, which is the AORUS MASTER 16 BYH model. (｀・ω・´)b",
+      "TTFT": 0.479331499998807,
+      "TPS": 28.29890493388421,
+      "token": 39,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8403,
+          "bm25": 6.387,
+          "lexical_similarity": 0.1199,
+          "score": 0.8403
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8367,
+          "bm25": 6.2456,
+          "lexical_similarity": 0.0917,
+          "score": 0.8367
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8056,
+          "bm25": 4.3097,
+          "lexical_similarity": 0.046,
+          "score": 0.8056
+        }
+      ],
+      "number": 142
+    },
+    {
+      "question": "Is there an RTX 5070 Ti version of this laptop?",
+      "answer": "Yes, there is an RTX 5070 Ti version of this laptop, which is the AORUS MASTER 16 BXH model. (｀・ω・´)b",
+      "TTFT": 0.8327255000040168,
+      "TPS": 28.937238674181962,
+      "token": 40,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8412,
+          "bm25": 7.5638,
+          "lexical_similarity": 0.0994,
+          "score": 0.8412
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8355,
+          "bm25": 7.3409,
+          "lexical_similarity": 0.1264,
+          "score": 0.8355
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.7967,
+          "bm25": 9.1254,
+          "lexical_similarity": 0.1328,
+          "score": 0.7967
+        }
+      ],
+      "number": 143
+    },
+    {
+      "question": "Does this laptop have a TPM security chip?",
+      "answer": "The AORUS MASTER 16 AM6H models, including BZH, BYH, and BXH, all support firmware-based TPM and Intel Platform Trust Technology, also known as Intel PTT. (｀・ω・´)b",
+      "TTFT": 0.6197002999979304,
+      "TPS": 29.582222693418156,
+      "token": 50,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::security",
+          "embedding_similarity": 0.8623,
+          "bm25": 7.4011,
+          "lexical_similarity": 0.1265,
+          "score": 0.8623
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8116,
+          "bm25": 2.0874,
+          "lexical_similarity": 0.0395,
+          "score": 0.8116
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8086,
+          "bm25": 2.1802,
+          "lexical_similarity": 0.0424,
+          "score": 0.8086
+        }
+      ],
+      "number": 144
+    },
+    {
+      "question": "Does this laptop include an IR webcam?",
+      "answer": "The laptop includes an IR webcam. (｀・ω・´)b",
+      "TTFT": 0.6186984999949345,
+      "TPS": 29.089871023164054,
+      "token": 15,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8676,
+          "bm25": 9.1926,
+          "lexical_similarity": 0.2087,
+          "score": 0.8676
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.822,
+          "bm25": 5.5242,
+          "lexical_similarity": 0.0906,
+          "score": 0.822
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8077,
+          "bm25": 1.6596,
+          "lexical_similarity": 0.0211,
+          "score": 0.8077
+        }
+      ],
+      "number": 145
+    },
+    {
+      "question": "Does this laptop have an RGB keyboard?",
+      "answer": "The AORUS MASTER 16 AM6H has a 3-zone RGB backlit keyboard. (｀・ω・´)b",
+      "TTFT": 0.5798030000005383,
+      "TPS": 29.540294948662403,
+      "token": 29,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::keyboard",
+          "embedding_similarity": 0.8462,
+          "bm25": 8.7271,
+          "lexical_similarity": 0.1704,
+          "score": 0.8462
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.817,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0302,
+          "score": 0.817
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8109,
+          "bm25": 4.0597,
+          "lexical_similarity": 0.0522,
+          "score": 0.8109
+        }
+      ],
+      "number": 146
+    },
+    {
+      "question": "Does this laptop support VESA DisplayHDR True Black 500?",
+      "answer": "The laptop supports VESA DisplayHDR True Black 500. (｀・ω・´)b",
+      "TTFT": 0.6408550999985891,
+      "TPS": 30.223051616051464,
+      "token": 22,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8415,
+          "bm25": 13.5365,
+          "lexical_similarity": 0.1491,
+          "score": 0.8415
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.822,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0266,
+          "score": 0.822
+        },
+        {
+          "chunk_id": "natural::security",
+          "embedding_similarity": 0.8218,
+          "bm25": 1.138,
+          "lexical_similarity": 0.0298,
+          "score": 0.8218
+        }
+      ],
+      "number": 147
+    },
+    {
+      "question": "Does this laptop support VESA ClearMR 10000?",
+      "answer": "Yes, this laptop supports VESA ClearMR 10000. (｀・ω・´)b",
+      "TTFT": 0.2508464000056847,
+      "TPS": 30.722937604452245,
+      "token": 24,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8334,
+          "bm25": 8.3352,
+          "lexical_similarity": 0.1056,
+          "score": 0.8334
+        },
+        {
+          "chunk_id": "natural::security",
+          "embedding_similarity": 0.8265,
+          "bm25": 1.138,
+          "lexical_similarity": 0.0338,
+          "score": 0.8265
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.8202,
+          "bm25": 1.1928,
+          "lexical_similarity": 0.0344,
+          "score": 0.8202
+        }
+      ],
+      "number": 148
+    },
+    {
+      "question": "Does this laptop have AI PC capabilities?",
+      "answer": "Yes, this laptop has AI PC capabilities. It supports NVIDIA GeForce RTX 5090, RTX 5080, and RTX 5070 Ti Laptop GPUs, which all have AI Boost. (｀・ω・´)b",
+      "TTFT": 0.7527558000001591,
+      "TPS": 27.824898822412976,
+      "token": 55,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8332,
+          "bm25": 3.9395,
+          "lexical_similarity": 0.0755,
+          "score": 0.8332
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.821,
+          "bm25": 1.4835,
+          "lexical_similarity": 0.0261,
+          "score": 0.821
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8164,
+          "bm25": 5.4032,
+          "lexical_similarity": 0.0891,
+          "score": 0.8164
+        }
+      ],
+      "number": 149
+    },
+    {
+      "question": "Does this laptop include the GiMATE AI assistant?",
+      "answer": "The laptop does not include the GiMATE AI assistant. The provided specifications do not mention it. (｀・ω・´)b",
+      "TTFT": 0.6586143000022275,
+      "TPS": 29.773174136200304,
+      "token": 28,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8246,
+          "bm25": 5.8958,
+          "lexical_similarity": 0.1413,
+          "score": 0.8246
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.818,
+          "bm25": 5.4032,
+          "lexical_similarity": 0.0833,
+          "score": 0.818
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8158,
+          "bm25": 0.1312,
+          "lexical_similarity": 0.0725,
+          "score": 0.8158
+        }
+      ],
+      "number": 150
+    },
+    {
+      "question": "Please introduce this laptop.",
+      "answer": "The AORUS MASTER 16 AM6H is a high-end 16-inch laptop designed for high performance, gaming, creator work, and AI-related tasks. It features a high-end Intel Core Ultra 9 Processor 275HX, a 16-inch 16:10 OLED WQXGA 2560x1600 240Hz display, up to 64GB DDR5 5600MHz memory, PCIe Gen5 and Gen4x4 M.2 storage slots, Thunderbolt 5 and Thunderbolt 4 Type-C ports with Power Delivery 3.0, Wi-Fi 7, FHD 1080p IR webcam with Windows Hello Face Authentication, a 99Wh battery, a 330W AC adapter, and weighs around 2.5 kg. The laptop is available in three variant models: AORUS MASTER 16 BZH, AORUS MASTER 16 BYH, and AORUS MASTER 16 BXH. The main differences between these models are the GPUs: BZH uses RTX 5090 with 24GB VRAM and 175W Graphics Power, BYH uses RTX 5080 with 16GB VRAM and 175W Graphics Power, and BXH uses RTX 5070 Ti with 12GB VRAM and 140W Graphics Power. The laptop also includes a large 99Wh battery, a 330W adapter, and a Dark Tide color. (｀・ω・´)b",
+      "TTFT": 0.2814055000053486,
+      "TPS": 23.329596022215316,
+      "token": 345,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8239,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.04,
+          "score": 0.8239
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8001,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0589,
+          "score": 0.8001
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.7758,
+          "bm25": 2.5166,
+          "lexical_similarity": 0.07,
+          "score": 0.7758
+        }
+      ],
+      "number": 151
+    },
+    {
+      "question": "Would you recommend BZH or BYH?",
+      "answer": "The recommendation between BZH and BYH depends on your preference for GPU performance. BZH uses the NVIDIA GeForce RTX 5090 Laptop GPU, which offers higher performance compared to BYH's NVIDIA GeForce RTX 5080 Laptop GPU. (｀・ω・´)b",
+      "TTFT": 0.6125606999994488,
+      "TPS": 28.94863676605459,
+      "token": 61,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8674,
+          "bm25": 0.0927,
+          "lexical_similarity": 0.2287,
+          "score": 0.8674
+        },
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.8448,
+          "bm25": 0.0829,
+          "lexical_similarity": 0.1485,
+          "score": 0.8448
+        },
+        {
+          "chunk_id": "natural::memory",
+          "embedding_similarity": 0.8444,
+          "bm25": 0.0825,
+          "lexical_similarity": 0.1516,
+          "score": 0.8444
+        }
+      ],
+      "number": 152
+    },
+    {
+      "question": "Is this laptop suitable for gaming?",
+      "answer": "Yes, this laptop is suitable for gaming. It has a high-end Intel Core Ultra 9 Processor 275HX and high-end RTX laptop GPU options, which are suitable for gaming. (｀・ω・´)b",
+      "TTFT": 0.8432781000010436,
+      "TPS": 27.85714646364693,
+      "token": 48,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8309,
+          "bm25": 6.8737,
+          "lexical_similarity": 0.1142,
+          "score": 0.8309
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8197,
+          "bm25": 2.5648,
+          "lexical_similarity": 0.0642,
+          "score": 0.8197
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7977,
+          "bm25": 1.8663,
+          "lexical_similarity": 0.0563,
+          "score": 0.7977
+        }
+      ],
+      "number": 153
+    },
+    {
+      "question": "Is this laptop suitable for AI development?",
+      "answer": "Yes, this laptop is suitable for AI development. It has high-end RTX laptop GPUs, which are suitable for AI-related workloads. (｀・ω・´)b",
+      "TTFT": 0.22529050000593998,
+      "TPS": 28.54675375450994,
+      "token": 36,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8388,
+          "bm25": 8.3397,
+          "lexical_similarity": 0.136,
+          "score": 0.8388
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8175,
+          "bm25": 5.5041,
+          "lexical_similarity": 0.1039,
+          "score": 0.8175
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.811,
+          "bm25": 1.8663,
+          "lexical_similarity": 0.0522,
+          "score": 0.811
+        }
+      ],
+      "number": 154
+    },
+    {
+      "question": "Is this laptop suitable for students?",
+      "answer": "Yes, this laptop is suitable for students as it is designed for gaming, creator work, and AI-related workloads, which are suitable for students. (｀・ω・´)b",
+      "TTFT": 0.21727090000058524,
+      "TPS": 29.09112734396924,
+      "token": 38,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8267,
+          "bm25": 4.5477,
+          "lexical_similarity": 0.0816,
+          "score": 0.8267
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8059,
+          "bm25": 2.5648,
+          "lexical_similarity": 0.0642,
+          "score": 0.8059
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8039,
+          "bm25": 1.8663,
+          "lexical_similarity": 0.0563,
+          "score": 0.8039
+        }
+      ],
+      "number": 155
+    },
+    {
+      "question": "Is this laptop suitable for video editing?",
+      "answer": "The AORUS MASTER 16 AM6H is suitable for video editing due to its high-end NVIDIA GeForce RTX 5090 Laptop GPU with 24GB VRAM, which supports high-performance video editing tasks. (｀・ω・´)b",
+      "TTFT": 0.6454374000022653,
+      "TPS": 27.51450247659635,
+      "token": 56,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8133,
+          "bm25": 4.5477,
+          "lexical_similarity": 0.0755,
+          "score": 0.8133
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8107,
+          "bm25": 1.8663,
+          "lexical_similarity": 0.0522,
+          "score": 0.8107
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.801,
+          "bm25": 2.5648,
+          "lexical_similarity": 0.0594,
+          "score": 0.801
+        }
+      ],
+      "number": 156
+    },
+    {
+      "question": "Is this laptop worth buying?",
+      "answer": "The AORUS MASTER 16 AM6H series is designed for high performance, gaming, creator work, and AI-related workloads. It offers features such as a high-end Intel Core Ultra 9 Processor, a 16-inch 16:10 OLED WQXGA 2560x1600 240Hz display, up to 64GB DDR5 5600MHz memory, PCIe Gen5 and Gen4x4 M.2 storage slots, Thunderbolt 5 and Thunderbolt 4 Type-C ports with Power Delivery 3.0, Wi-Fi 7, FHD 1080p IR webcam with Windows Hello Face Authentication, 99Wh battery, 330W AC adapter, around 2.5 kg weight, and Dark Tide color. These features make it a worthwhile purchase for users in the mentioned use cases. (｀・ω・´)b",
+      "TTFT": 0.7607884999961243,
+      "TPS": 24.213155895402988,
+      "token": 198,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8263,
+          "bm25": 5.9653,
+          "lexical_similarity": 0.1072,
+          "score": 0.8263
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8099,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0527,
+          "score": 0.8099
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7936,
+          "bm25": 1.7335,
+          "lexical_similarity": 0.0309,
+          "score": 0.7936
+        }
+      ],
+      "number": 157
+    },
+    {
+      "question": "If I have a limited budget, which version should I choose?",
+      "answer": "不論您選擇哪一個版本，AORUS MASTER 16 AM6H 都有相同的連接埠、音效和電池容量。因此，如果您有限的預算，您可以根據其他因素如設計、顏色或個人偏好來選擇。請確認您需要的特定功能是否在您考慮的版本中。 (｀・ω・´)b",
+      "TTFT": 0.7042173000008916,
+      "TPS": 29.60967838648254,
+      "token": 78,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8,
+          "bm25": 5.045,
+          "lexical_similarity": 0.0455,
+          "score": 0.8
+        },
+        {
+          "chunk_id": "natural::audio",
+          "embedding_similarity": 0.7947,
+          "bm25": 1.814,
+          "lexical_similarity": 0.0266,
+          "score": 0.7947
+        },
+        {
+          "chunk_id": "natural::battery",
+          "embedding_similarity": 0.7928,
+          "bm25": 1.427,
+          "lexical_similarity": 0.0272,
+          "score": 0.7928
+        }
+      ],
+      "number": 158
+    },
+    {
+      "question": "Which version offers better value for money?",
+      "answer": "The provided specifications do not mention which version offers better value for money. (｀・ω・´)b",
+      "TTFT": 0.3764692999975523,
+      "TPS": 31.43228043761184,
+      "token": 22,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::os",
+          "embedding_similarity": 0.7763,
+          "bm25": 0.1624,
+          "lexical_similarity": 0.0344,
+          "score": 0.7763
+        },
+        {
+          "chunk_id": "natural::audio",
+          "embedding_similarity": 0.7668,
+          "bm25": 0.1624,
+          "lexical_similarity": 0.0362,
+          "score": 0.7668
+        },
+        {
+          "chunk_id": "natural::battery",
+          "embedding_similarity": 0.7655,
+          "bm25": 0.1695,
+          "lexical_similarity": 0.0371,
+          "score": 0.7655
+        }
+      ],
+      "number": 159
+    },
+    {
+      "question": "Should I buy the RTX 5090 version or the RTX 5080 version?",
+      "answer": "Both the RTX 5090 version and the RTX 5080 version are high-end options with different VRAM sizes. The RTX 5090 version has 24GB VRAM, while the RTX 5080 version has 16GB VRAM. If you prioritize more VRAM for demanding applications like AI development or content creation, the RTX 5090 version might be a better choice. However, if you are more focused on gaming or general productivity, the RTX 5080 version could be sufficient. Consider your specific needs and workload to make the decision. (｀・ω・´)b",
+      "TTFT": 0.8184102999948664,
+      "TPS": 27.33711649293917,
+      "token": 141,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8487,
+          "bm25": 7.5638,
+          "lexical_similarity": 0.0741,
+          "score": 0.8487
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8431,
+          "bm25": 6.6917,
+          "lexical_similarity": 0.1507,
+          "score": 0.8431
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.836,
+          "bm25": 7.9865,
+          "lexical_similarity": 0.154,
+          "score": 0.836
+        }
+      ],
+      "number": 160
+    },
+    {
+      "question": "Is this laptop suitable for running large language models?",
+      "answer": "The provided specifications do not mention if this laptop is suitable for running large language models. (｀・ω・´)b",
+      "TTFT": 0.9443406999998842,
+      "TPS": 28.074519207062398,
+      "token": 25,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8279,
+          "bm25": 5.9791,
+          "lexical_similarity": 0.0933,
+          "score": 0.8279
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8179,
+          "bm25": 2.5941,
+          "lexical_similarity": 0.0786,
+          "score": 0.8179
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8177,
+          "bm25": 1.9023,
+          "lexical_similarity": 0.092,
+          "score": 0.8177
+        }
+      ],
+      "number": 161
+    },
+    {
+      "question": "Is this laptop suitable as a workstation?",
+      "answer": "Yes, this laptop is suitable as a workstation. It has high-end specifications including a high-performance Intel Core Ultra 9 Processor, high-end RTX laptop GPU options, a large 99Wh battery, and a 330W adapter, which are suitable for workstation use. (｀・ω・´)b",
+      "TTFT": 0.28627229999983683,
+      "TPS": 30.050083928588602,
+      "token": 66,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8377,
+          "bm25": 6.5803,
+          "lexical_similarity": 0.1057,
+          "score": 0.8377
+        },
+        {
+          "chunk_id": "natural::security",
+          "embedding_similarity": 0.8171,
+          "bm25": 2.4126,
+          "lexical_similarity": 0.0338,
+          "score": 0.8171
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.814,
+          "bm25": 1.7335,
+          "lexical_similarity": 0.0261,
+          "score": 0.814
+        }
+      ],
+      "number": 162
+    },
+    {
+      "question": "Is this laptop suitable for engineers?",
+      "answer": "The AORUS MASTER 16 AM6H is suitable for engineers as it supports AI-related workloads, which can be beneficial for engineering tasks. (｀・ω・´)b",
+      "TTFT": 0.7166280000019469,
+      "TPS": 28.213877103955934,
+      "token": 39,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8269,
+          "bm25": 4.5477,
+          "lexical_similarity": 0.0816,
+          "score": 0.8269
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8135,
+          "bm25": 2.5648,
+          "lexical_similarity": 0.0642,
+          "score": 0.8135
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8014,
+          "bm25": 1.8663,
+          "lexical_similarity": 0.0563,
+          "score": 0.8014
+        }
+      ],
+      "number": 163
+    },
+    {
+      "question": "Is this laptop suitable for data scientists?",
+      "answer": "Yes, this laptop is suitable for data scientists due to its high-end Intel Core Ultra 9 Processor, high-end RTX laptop GPU options, and large 99Wh battery, which are beneficial for data processing and analysis tasks. (｀・ω・´)b",
+      "TTFT": 0.23355489999812562,
+      "TPS": 29.257241100747333,
+      "token": 55,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.819,
+          "bm25": 4.5477,
+          "lexical_similarity": 0.0755,
+          "score": 0.819
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8071,
+          "bm25": 2.5648,
+          "lexical_similarity": 0.0594,
+          "score": 0.8071
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8038,
+          "bm25": 1.8663,
+          "lexical_similarity": 0.0522,
+          "score": 0.8038
+        }
+      ],
+      "number": 164
+    },
+    {
+      "question": "What are the advantages of this laptop?",
+      "answer": "The main advantages of this laptop include the high-end Intel Core Ultra 9 CPU, OLED 240Hz display, high-end RTX laptop GPU options, Wi-Fi 7, Thunderbolt 5, large 99Wh battery, and 330W adapter. (｀・ω・´)b",
+      "TTFT": 0.37433749999763677,
+      "TPS": 29.088324316798808,
+      "token": 66,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8271,
+          "bm25": 3.0717,
+          "lexical_similarity": 0.0906,
+          "score": 0.8271
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8091,
+          "bm25": 2.5227,
+          "lexical_similarity": 0.0594,
+          "score": 0.8091
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8042,
+          "bm25": 0.188,
+          "lexical_similarity": 0.093,
+          "score": 0.8042
+        }
+      ],
+      "number": 165
+    },
+    {
+      "question": "What are the disadvantages of this laptop?",
+      "answer": "The context provided does not mention any disadvantages of this laptop. (｀・ω・´)b",
+      "TTFT": 0.2805235000050743,
+      "TPS": 28.897219957552778,
+      "token": 20,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8318,
+          "bm25": 1.6541,
+          "lexical_similarity": 0.0755,
+          "score": 0.8318
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.818,
+          "bm25": 2.5227,
+          "lexical_similarity": 0.0594,
+          "score": 0.818
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8152,
+          "bm25": 0.188,
+          "lexical_similarity": 0.093,
+          "score": 0.8152
+        }
+      ],
+      "number": 166
+    },
+    {
+      "question": "If I only play League of Legends, which version should I choose?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.27443440000206465,
+      "TPS": 31.386173663517162,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8028,
+          "bm25": 3.7764,
+          "lexical_similarity": 0.0219,
+          "score": 0.8028
+        }
+      ],
+      "number": 167
+    },
+    {
+      "question": "If I want to play AAA games, which version should I choose?",
+      "answer": "The context provided does not mention anything about the performance or specifications of AAA games. It only talks about the ports, keyboard, and storage of the AORUS MASTER 16 AM6H. Therefore, the provided specifications do not mention which version you should choose for AAA games. (｀・ω・´)b",
+      "TTFT": 0.280551200004993,
+      "TPS": 30.57516495069792,
+      "token": 65,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8189,
+          "bm25": 3.7764,
+          "lexical_similarity": 0.0219,
+          "score": 0.8189
+        },
+        {
+          "chunk_id": "natural::keyboard",
+          "embedding_similarity": 0.8123,
+          "bm25": 1.5513,
+          "lexical_similarity": 0.0241,
+          "score": 0.8123
+        },
+        {
+          "chunk_id": "natural::storage",
+          "embedding_similarity": 0.8116,
+          "bm25": 1.3646,
+          "lexical_similarity": 0.0199,
+          "score": 0.8116
+        }
+      ],
+      "number": 168
+    },
+    {
+      "question": "If I want to train AI models, which version should I choose?",
+      "answer": "You should choose AORUS MASTER 16 BYH. It comes with NVIDIA GeForce RTX 5080 Laptop GPU, which is suitable for AI development. (｀・ω・´)b",
+      "TTFT": 0.9268015999987256,
+      "TPS": 29.217168769461203,
+      "token": 43,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8114,
+          "bm25": 2.9688,
+          "lexical_similarity": 0.0525,
+          "score": 0.8114
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8035,
+          "bm25": 3.0948,
+          "lexical_similarity": 0.0534,
+          "score": 0.8035
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8015,
+          "bm25": 3.8049,
+          "lexical_similarity": 0.0439,
+          "score": 0.8015
+        }
+      ],
+      "number": 169
+    },
+    {
+      "question": "If I need portability, which version should I choose?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.2710503000052995,
+      "TPS": 31.18694389798508,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8278,
+          "bm25": 3.7764,
+          "lexical_similarity": 0.0247,
+          "score": 0.8278
+        }
+      ],
+      "number": 170
+    },
+    {
+      "question": "Which SKU is best for content creation?",
+      "answer": "AORUS MASTER 16 BYH is the best SKU for content creation. (｀・ω・´)b",
+      "TTFT": 0.6266862000047695,
+      "TPS": 30.96508636973598,
+      "token": 25,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7974,
+          "bm25": 4.4002,
+          "lexical_similarity": 0.0604,
+          "score": 0.7974
+        },
+        {
+          "chunk_id": "natural::audio",
+          "embedding_similarity": 0.7862,
+          "bm25": 0.1624,
+          "lexical_similarity": 0.0362,
+          "score": 0.7862
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.785,
+          "bm25": 1.3641,
+          "lexical_similarity": 0.0176,
+          "score": 0.785
+        }
+      ],
+      "number": 171
+    },
+    {
+      "question": "Which SKU is best for AI workloads?",
+      "answer": "AORUS MASTER 16 BYH is the SKU best for AI workloads. It uses NVIDIA GeForce RTX 5080 Laptop GPU with 16GB GDDR7 VRAM and 175W Graphics Power, which is suitable for AI-related workloads. (｀・ω・´)b",
+      "TTFT": 0.5178253000049153,
+      "TPS": 28.681779424518567,
+      "token": 67,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8256,
+          "bm25": 5.3571,
+          "lexical_similarity": 0.0906,
+          "score": 0.8256
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8206,
+          "bm25": 3.0404,
+          "lexical_similarity": 0.0594,
+          "score": 0.8206
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8071,
+          "bm25": 1.3641,
+          "lexical_similarity": 0.0176,
+          "score": 0.8071
+        }
+      ],
+      "number": 172
+    },
+    {
+      "question": "Which SKU is best for gamers?",
+      "answer": "AORUS MASTER 16 BZH is the SKU best for gamers. (｀・ω・´)b",
+      "TTFT": 0.45213479999802075,
+      "TPS": 29.918520648700305,
+      "token": 24,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8066,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0326,
+          "score": 0.8066
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8026,
+          "bm25": 1.3641,
+          "lexical_similarity": 0.0191,
+          "score": 0.8026
+        },
+        {
+          "chunk_id": "natural::memory",
+          "embedding_similarity": 0.7951,
+          "bm25": 0.2176,
+          "lexical_similarity": 0.0758,
+          "score": 0.7951
+        }
+      ],
+      "number": 173
+    },
+    {
+      "question": "Which version is the most worthwhile upgrade?",
+      "answer": "The most worthwhile upgrade would be the one with the highest GPU performance, which is the AORUS MASTER 16 BZH with NVIDIA GeForce RTX 5090 Laptop GPU. (｀・ω・´)b",
+      "TTFT": 0.5396009999967646,
+      "TPS": 29.939099412829048,
+      "token": 47,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8046,
+          "bm25": 1.4766,
+          "lexical_similarity": 0.0706,
+          "score": 0.8046
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8025,
+          "bm25": 0.0943,
+          "lexical_similarity": 0.0423,
+          "score": 0.8025
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8007,
+          "bm25": 1.863,
+          "lexical_similarity": 0.1043,
+          "score": 0.8007
+        }
+      ],
+      "number": 174
+    },
+    {
+      "question": "How does this series differ from a typical office laptop?",
+      "answer": "The AORUS MASTER 16 AM6H series differs from a typical office laptop in several ways. It is a high-end 16-inch laptop with features such as a 16:10 OLED WQXGA 2560x1600 240Hz display, up to 64GB DDR5 5600MHz memory, PCIe Gen5 and Gen4x4 M.2 storage slots, Thunderbolt 5 and Thunderbolt 4 Type-C ports with Power Delivery 3.0, Wi-Fi 7, FHD 1080p IR webcam with Windows Hello Face Authentication, 99Wh battery, 330W AC adapter, around 2.5 kg weight, and Dark Tide color. These features are not typically found in a typical office laptop. (｀・ω・´)b",
+      "TTFT": 0.8432915000012144,
+      "TPS": 25.887669807554545,
+      "token": 183,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8152,
+          "bm25": 3.5977,
+          "lexical_similarity": 0.0506,
+          "score": 0.8152
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.8123,
+          "bm25": 1.2687,
+          "lexical_similarity": 0.0259,
+          "score": 0.8123
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.8017,
+          "bm25": 2.5166,
+          "lexical_similarity": 0.0443,
+          "score": 0.8017
+        }
+      ],
+      "number": 175
+    },
+    {
+      "question": "How does this series compare with a gaming desktop?",
+      "answer": "The AORUS MASTER 16 AM6H series, being a high-end 16-inch AORUS laptop, compares favorably with a gaming desktop in terms of portability and ease of use. However, it lacks the powerful GPU options available in gaming desktops, such as the RTX 5090, RTX 5080, and RTX 5070 Ti GPUs used in the BZH, BYH, and BXH models respectively. The laptop series also has a smaller form factor, lighter weight, and a more compact design, making it suitable for students, gamers, AI developers, content creators, and workstations where portability and convenience are important. (｀・ω・´)b",
+      "TTFT": 0.7239440999983344,
+      "TPS": 27.346796143186648,
+      "token": 153,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8148,
+          "bm25": 6.3824,
+          "lexical_similarity": 0.1332,
+          "score": 0.8148
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.8087,
+          "bm25": 1.9273,
+          "lexical_similarity": 0.0373,
+          "score": 0.8087
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.807,
+          "bm25": 3.8912,
+          "lexical_similarity": 0.0622,
+          "score": 0.807
+        }
+      ],
+      "number": 176
+    },
+    {
+      "question": "Which SKU would you recommend purchasing?",
+      "answer": "The main variant difference is GPU: BZH uses RTX 5090 with 24GB VRAM and 175W Graphics Power, BYH uses RTX 5080 with 16GB VRAM and 175W Graphics Power, and BXH uses RTX 5070 Ti with 12GB VRAM and 140W Graphics Power. If you prioritize high-end gaming and AI-related workloads, you might want to consider the BZH model. If you are more focused on content creation and creator work, the BYH model might be a better choice. If you need a workstation with a high-end RTX GPU, the BXH model would be suitable. (｀・ω・´)b",
+      "TTFT": 0.2877567000032286,
+      "TPS": 27.987696678514236,
+      "token": 160,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8088,
+          "bm25": 1.4175,
+          "lexical_similarity": 0.0163,
+          "score": 0.8088
+        }
+      ],
+      "number": 177
+    },
+    {
+      "question": "Will this laptop still be sufficient five years from now?",
+      "answer": "The laptop's GPU specifications are the main difference among the three models. As of now, the RTX 5090 with 24GB VRAM and 175W Graphics Power in BZH is the most powerful. However, technology evolves rapidly, and by the time five years have passed, the GPU technology and specifications may have advanced significantly. Therefore, it is uncertain whether the laptop will still be sufficient. It is recommended to check the latest technology trends and specifications before making a decision. (｀・ω・´)b",
+      "TTFT": 0.6408421000014641,
+      "TPS": 28.326302158194796,
+      "token": 111,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8262,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0253,
+          "score": 0.8262
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8094,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0373,
+          "score": 0.8094
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.7883,
+          "bm25": 2.5166,
+          "lexical_similarity": 0.0443,
+          "score": 0.7883
+        }
+      ],
+      "number": 178
+    },
+    {
+      "question": "Is this laptop suitable as a primary development machine?",
+      "answer": "Yes, this laptop is suitable as a primary development machine due to its high-end Intel Core Ultra 9 Processor, high-end RTX laptop GPU options, Wi-Fi 7, Thunderbolt 5, large 99Wh battery, and 330W adapter, which are suitable for AI development, content creation, and workstation use cases. (｀・ω・´)b",
+      "TTFT": 0.32064030000037747,
+      "TPS": 29.488792373881875,
+      "token": 79,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8313,
+          "bm25": 6.5803,
+          "lexical_similarity": 0.0933,
+          "score": 0.8313
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8098,
+          "bm25": 2.4638,
+          "lexical_similarity": 0.0393,
+          "score": 0.8098
+        },
+        {
+          "chunk_id": "natural::security",
+          "embedding_similarity": 0.8088,
+          "bm25": 2.4126,
+          "lexical_similarity": 0.0298,
+          "score": 0.8088
+        }
+      ],
+      "number": 179
+    },
+    {
+      "question": "Is this laptop suitable for graduate students?",
+      "answer": "Yes, this laptop is suitable for graduate students as it is designed for high performance, gaming, creator work, and AI-related workloads, which are suitable for graduate students' needs. (｀・ω・´)b",
+      "TTFT": 0.32325669999409,
+      "TPS": 28.952986654900542,
+      "token": 45,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.8298,
+          "bm25": 4.5477,
+          "lexical_similarity": 0.0755,
+          "score": 0.8298
+        },
+        {
+          "chunk_id": "natural::gpu",
+          "embedding_similarity": 0.8201,
+          "bm25": 2.5648,
+          "lexical_similarity": 0.0594,
+          "score": 0.8201
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.8062,
+          "bm25": 1.8663,
+          "lexical_similarity": 0.0522,
+          "score": 0.8062
+        }
+      ],
+      "number": 180
+    },
+    {
+      "question": "What is the weather like in Taipei today?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.5911522000023979,
+      "TPS": 29.473929146161186,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.7592,
+          "bm25": 0.0943,
+          "lexical_similarity": 0.0395,
+          "score": 0.7592
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7542,
+          "bm25": 1.6541,
+          "lexical_similarity": 0.0707,
+          "score": 0.7542
+        },
+        {
+          "chunk_id": "natural::color",
+          "embedding_similarity": 0.7533,
+          "bm25": 2.3563,
+          "lexical_similarity": 0.0711,
+          "score": 0.7533
+        }
+      ],
+      "number": 181
+    },
+    {
+      "question": "What is the tallest mountain in the world?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.5677982999986853,
+      "TPS": 30.033770604026362,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7714,
+          "bm25": 3.7261,
+          "lexical_similarity": 0.1746,
+          "score": 0.7714
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.7623,
+          "bm25": 0.1887,
+          "lexical_similarity": 0.0707,
+          "score": 0.7623
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.7601,
+          "bm25": 1.5329,
+          "lexical_similarity": 0.1427,
+          "score": 0.7601
+        }
+      ],
+      "number": 182
+    },
+    {
+      "question": "How do you cook delicious instant noodles?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.2697498000052292,
+      "TPS": 30.97718171888121,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.775,
+          "bm25": 1.8882,
+          "lexical_similarity": 0.0155,
+          "score": 0.775
+        }
+      ],
+      "number": 183
+    },
+    {
+      "question": "Should pineapple belong on pizza?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.4764344000068377,
+      "TPS": 30.012758581874177,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.7635,
+          "bm25": 1.5158,
+          "lexical_similarity": 0.0183,
+          "score": 0.7635
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7565,
+          "bm25": 1.138,
+          "lexical_similarity": 0.0179,
+          "score": 0.7565
+        }
+      ],
+      "number": 184
+    },
+    {
+      "question": "How tall is the Eiffel Tower?",
+      "answer": "The height of the Eiffel Tower is not mentioned in the provided context. (｀・ω・´)b",
+      "TTFT": 0.572583900000609,
+      "TPS": 29.560727587902655,
+      "token": 24,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.763,
+          "bm25": 0.0943,
+          "lexical_similarity": 0.0456,
+          "score": 0.763
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7604,
+          "bm25": 1.863,
+          "lexical_similarity": 0.1127,
+          "score": 0.7604
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.7504,
+          "bm25": 0.1312,
+          "lexical_similarity": 0.0838,
+          "score": 0.7504
+        }
+      ],
+      "number": 185
+    },
+    {
+      "question": "Which type of coffee tastes best?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.5603429999973741,
+      "TPS": 29.965883053676606,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.7834,
+          "bm25": 3.7003,
+          "lexical_similarity": 0.1005,
+          "score": 0.7834
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.775,
+          "bm25": 1.138,
+          "lexical_similarity": 0.0163,
+          "score": 0.775
+        }
+      ],
+      "number": 186
+    },
+    {
+      "question": "What is your favorite movie?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.6295232999982545,
+      "TPS": 30.256280248341792,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7574,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0357,
+          "score": 0.7574
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7527,
+          "bm25": 1.7335,
+          "lexical_similarity": 0.0309,
+          "score": 0.7527
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.7299,
+          "bm25": 1.3641,
+          "lexical_similarity": 0.0209,
+          "score": 0.7299
+        }
+      ],
+      "number": 187
+    },
+    {
+      "question": "Which is smarter, cats or dogs?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.6088286000012886,
+      "TPS": 29.805632762501464,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7571,
+          "bm25": 1.7335,
+          "lexical_similarity": 0.0282,
+          "score": 0.7571
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.7484,
+          "bm25": 1.3641,
+          "lexical_similarity": 0.0191,
+          "score": 0.7484
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7478,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0326,
+          "score": 0.7478
+        }
+      ],
+      "number": 188
+    },
+    {
+      "question": "How can I learn guitar effectively?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.2818341000020155,
+      "TPS": 30.727292369197105,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.7703,
+          "bm25": 1.8882,
+          "lexical_similarity": 0.0168,
+          "score": 0.7703
+        }
+      ],
+      "number": 189
+    },
+    {
+      "question": "What is TSMC's stock price?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.6426187999968533,
+      "TPS": 30.247980907387173,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7581,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0326,
+          "score": 0.7581
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7487,
+          "bm25": 1.7335,
+          "lexical_similarity": 0.0282,
+          "score": 0.7487
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.7391,
+          "bm25": 1.3641,
+          "lexical_similarity": 0.0191,
+          "score": 0.7391
+        }
+      ],
+      "number": 190
+    },
+    {
+      "question": "What is Newton's Second Law of Motion?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.6351123999993433,
+      "TPS": 30.615064706472037,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7483,
+          "bm25": 1.7335,
+          "lexical_similarity": 0.0244,
+          "score": 0.7483
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7375,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0283,
+          "score": 0.7375
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.7336,
+          "bm25": 1.3641,
+          "lexical_similarity": 0.0165,
+          "score": 0.7336
+        }
+      ],
+      "number": 191
+    },
+    {
+      "question": "What is quantum mechanics?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.19809579999855487,
+      "TPS": 29.64884531786864,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7614,
+          "bm25": 1.7335,
+          "lexical_similarity": 0.0345,
+          "score": 0.7614
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7426,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.04,
+          "score": 0.7426
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.7379,
+          "bm25": 1.3641,
+          "lexical_similarity": 0.0233,
+          "score": 0.7379
+        }
+      ],
+      "number": 192
+    },
+    {
+      "question": "How do I prepare for a marathon?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.4978988000002573,
+      "TPS": 30.86312965457206,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::battery",
+          "embedding_similarity": 0.7829,
+          "bm25": 1.5965,
+          "lexical_similarity": 0.0741,
+          "score": 0.7829
+        },
+        {
+          "chunk_id": "natural::memory",
+          "embedding_similarity": 0.7768,
+          "bm25": 0.2176,
+          "lexical_similarity": 0.0702,
+          "score": 0.7768
+        },
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.7747,
+          "bm25": 1.0036,
+          "lexical_similarity": 0.0423,
+          "score": 0.7747
+        }
+      ],
+      "number": 193
+    },
+    {
+      "question": "How can I improve my English?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.25949820000096224,
+      "TPS": 30.671850747632778,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.7531,
+          "bm25": 1.8882,
+          "lexical_similarity": 0.0168,
+          "score": 0.7531
+        }
+      ],
+      "number": 194
+    },
+    {
+      "question": "What is the population of the world?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.6442164999971283,
+      "TPS": 29.72030843438538,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7576,
+          "bm25": 1.9926,
+          "lexical_similarity": 0.161,
+          "score": 0.7576
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7561,
+          "bm25": 1.7431,
+          "lexical_similarity": 0.1066,
+          "score": 0.7561
+        },
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.7518,
+          "bm25": 0.2623,
+          "lexical_similarity": 0.1368,
+          "score": 0.7518
+        }
+      ],
+      "number": 195
+    },
+    {
+      "question": "Which is better, Python or C++?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.6195684999984223,
+      "TPS": 29.903840266772143,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.7804,
+          "bm25": 3.7003,
+          "lexical_similarity": 0.1005,
+          "score": 0.7804
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7797,
+          "bm25": 2.7031,
+          "lexical_similarity": 0.049,
+          "score": 0.7797
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7728,
+          "bm25": 1.7335,
+          "lexical_similarity": 0.0282,
+          "score": 0.7728
+        }
+      ],
+      "number": 196
+    },
+    {
+      "question": "What is blockchain?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.6160492999988492,
+      "TPS": 29.619827949280527,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7623,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.0462,
+          "score": 0.7623
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.7557,
+          "bm25": 1.3641,
+          "lexical_similarity": 0.0269,
+          "score": 0.7557
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7509,
+          "bm25": 1.7335,
+          "lexical_similarity": 0.0398,
+          "score": 0.7509
+        }
+      ],
+      "number": 197
+    },
+    {
+      "question": "What is an ETF?",
+      "answer": "不好意思喔，這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.6406161000049906,
+      "TPS": 30.129561873383373,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.733,
+          "bm25": 4.3097,
+          "lexical_similarity": 0.069,
+          "score": 0.733
+        },
+        {
+          "chunk_id": "natural::product_summary",
+          "embedding_similarity": 0.7255,
+          "bm25": 1.5651,
+          "lexical_similarity": 0.04,
+          "score": 0.7255
+        },
+        {
+          "chunk_id": "natural::main_difference",
+          "embedding_similarity": 0.7198,
+          "bm25": 1.3641,
+          "lexical_similarity": 0.0233,
+          "score": 0.7198
+        }
+      ],
+      "number": 198
+    },
+    {
+      "question": "What is a black hole?",
+      "answer": "The context provided does not mention anything about black holes. (｀・ω・´)b",
+      "TTFT": 0.5073162999979104,
+      "TPS": 30.11008564266277,
+      "token": 19,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::display",
+          "embedding_similarity": 0.7779,
+          "bm25": 2.9642,
+          "lexical_similarity": 0.05,
+          "score": 0.7779
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7742,
+          "bm25": 1.7335,
+          "lexical_similarity": 0.0309,
+          "score": 0.7742
+        },
+        {
+          "chunk_id": "natural::keyboard",
+          "embedding_similarity": 0.7713,
+          "bm25": 1.3506,
+          "lexical_similarity": 0.0403,
+          "score": 0.7713
+        }
+      ],
+      "number": 199
+    },
+    {
+      "question": "How do I invest in U.S. stocks?",
+      "answer": "這個問題我沒辦法回答喔  (｀・ω・´)b",
+      "TTFT": 0.4856537000014214,
+      "TPS": 31.266818128290495,
+      "token": 16,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "natural::ports",
+          "embedding_similarity": 0.7752,
+          "bm25": 5.0469,
+          "lexical_similarity": 0.0435,
+          "score": 0.7752
+        },
+        {
+          "chunk_id": "natural::webcam",
+          "embedding_similarity": 0.7504,
+          "bm25": 1.7335,
+          "lexical_similarity": 0.0244,
+          "score": 0.7504
+        },
+        {
+          "chunk_id": "natural::color",
+          "embedding_similarity": 0.7451,
+          "bm25": 2.2554,
+          "lexical_similarity": 0.0355,
+          "score": 0.7451
+        }
+      ],
+      "number": 200
+    }
+  ]
+}
