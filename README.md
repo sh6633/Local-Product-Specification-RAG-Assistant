@@ -27,11 +27,45 @@ uv sync
 uv run python src\main.py
 ```
 
+啟動 FastAPI 服務：
+
+```powershell
+uv run uvicorn api:app --app-dir src --host 127.0.0.1 --port 8000
+```
+
+測試 API：
+
+```powershell
+curl http://127.0.0.1:8000/health
+```
+
+```powershell
+curl -X POST http://127.0.0.1:8000/chat `
+  -H "Content-Type: application/json" `
+  -d "{\"question\":\"這台電腦有 RTX 5090 的版本嗎？\"}"
+```
+
 執行 benchmark：
 
 ```powershell
 uv run python src\run_benchmark_embedding.py
 ```
+
+使用 CUDA Docker 建置 image：
+
+```powershell
+docker build -t aorus-rag-api .
+```
+
+使用 CUDA Docker 啟動服務：
+
+```powershell
+docker run --rm --gpus all -p 8000:8000 `
+  -v "${PWD}\models:/app/models" `
+  aorus-rag-api
+```
+
+Docker 版本不會把 `.gguf` 模型檔包進 image，需透過 volume 將本機 `models/` 掛載到 container 的 `/app/models`。若要使用 CUDA Docker，主機需要 NVIDIA Driver、Docker Desktop，以及 NVIDIA Container Toolkit / GPU container 支援。
 
 ## 模型選擇與 4GB VRAM 限制
 
@@ -73,18 +107,21 @@ Embedding 模型目前固定使用 CPU，避免與 `llama.cpp` 搶 VRAM。
 
 ```text
 .
+├── .dockerignore
 ├── data/
 │   └── processed/
 │       └── chunks_natural.json
 ├── examples/
 │   └── AORUS_MASTER16_AM6H_100Q_Benchmark.txt
 ├── src/
+│   ├── api.py
 │   ├── config.py
 │   ├── embeddings.py
 │   ├── llm.py
 │   ├── main.py
 │   ├── rag_natural.py
 │   └── run_benchmark_embedding.py
+├── Dockerfile
 ├── pyproject.toml
 ├── uv.lock
 └── README.md

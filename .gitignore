@@ -23,6 +23,7 @@ data/processed/eval_runs/
 
 src/*
 !src/config.py
+!src/api.py
 !src/llm.py
 !src/main.py
 !src/embeddings.py
