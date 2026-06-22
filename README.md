@@ -1,17 +1,22 @@
-# GIGABYTE AORUS MASTER 16 AM6H RAG 硬體小助手
+# Local Product Specification RAG Assistant
 
-這是一個針對 **GIGABYTE AORUS MASTER 16 AM6H** 筆電規格建立的本地端 RAG 問答系統。系統可以根據整理後的產品規格資料，回答繁體中文與英文問題，並透過 `llama.cpp` 串流輸出回答。
+本專案是一套以純 Python 實作的本地端 RAG 問答系統，適合處理產品規格表、硬體配置等結構化資料。
 
-本專案重點不是使用高階 RAG 框架，而是用純 Python 實作資料整理、檢索、Prompt 組合、模型推論與 benchmark 評測流程。
+系統會將原始 Key-Value 規格整理成自然語言 chunks，結合 BM25、詞頻相似度與 multilingual embedding 進行檢索，再透過本地端量化語言模型生成回答。
 
-## 專案限制
+目前以 **GIGABYTE AORUS MASTER 16 AM6H** 筆電規格作為示範資料集，實作內容涵蓋資料處理、混合檢索、串流生成、FastAPI 服務、CUDA Docker 部署與系統評測。
 
-- 不使用 LangChain / LlamaIndex
-- 使用純 Python 實作 RAG 核心邏輯
-- 使用 `uv` 管理 Python 環境
-- 使用 `llama.cpp` / `llama-cpp-python` 進行本地推論
-- 支援繁體中文與英文混合提問
+## 技術特色
+
+- 不依賴 LangChain、LlamaIndex 等高階 RAG 框架
+- 使用純 Python 實作資料處理與檢索流程
+- 結合 BM25、token-count cosine similarity 與 embedding rerank
+- 使用 `llama.cpp` / `llama-cpp-python` 執行本地 GGUF 量化模型
+- 使用 `uv` 管理 Python 環境與依賴
+- 支援繁體中文與英文提問
 - 支援 Streaming 串流輸出
+- 提供 FastAPI 與 CUDA Docker 部署方式
+- 使用 TTFT、TPS 與 benchmark 評估系統表現
 
 ## 環境設定與啟動步驟
 
